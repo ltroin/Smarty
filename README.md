@@ -1,4 +1,3 @@
-"""
 This repository accompanies the paper:
 
 **Socrates or Smartypants: Testing Logic Reasoning Capabilities of Large Language Models with Logic Programming-based Test Oracles**
@@ -35,4 +34,3 @@ Coming soon!
 
 Coming soon!
 
-"""
