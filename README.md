@@ -1,4 +1,6 @@
-# Socrates or Smartypants: Testing Logic Reasoning Capabilities of Large Language Models with Logic Programming-based Test Oracles
+This repository accompanies the paper:
+
+**Socrates or Smartypants: Testing Logic Reasoning Capabilities of Large Language Models with Logic Programming-based Test Oracles**
 
 📄 **Website:** Coming soon!
 
@@ -31,3 +33,18 @@ This repository is organized as follows:
 - **fallacies.pl**: Main Prolog file containing the results of our study
 
 
+<<<<<<< HEAD
+=======
+---
+
+## 📜 Citation
+
+Coming soon!
+
+---
+
+## 🤝 Acknowledgments
+
+Coming soon!
+
+>>>>>>> 26d16018e91cde548b2bb68d14f1a34709ce7445
