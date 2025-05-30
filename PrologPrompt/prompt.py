@@ -2,10 +2,11 @@ import requests
 import json
 import os
 import time
+import anthropic
 
 # API configuration
-API_KEY = "YOUR_API_KEY_HERE"  # Replace with actual API key
-BASE_URL = "https://api.anthropic.com/v1/messages"
+API_KEY = "YOUR_API_KEY"  # Replace with actual API key
+BASE_URL = "YOUR_BASE_URL" # Replace with actual BASE URL
 MODEL = "claude-3-7-sonnet-20250219"  # Using Claude 3.7 extended API model
 
 # Define prompts for each fallacy type with comments removed
@@ -146,18 +147,27 @@ def call_claude_api(prompt):
         "content-type": "application/json",
         "anthropic-version": "2023-06-01"
     }
-    
+
     data = {
         "model": MODEL,
-        "max_tokens": 4000,
-        "temperature": 0.7,
+        "max_tokens": 8000,
+        "thinking": {
+        "type": "enabled",
+        "budget_tokens": 4000
+    },
         "messages": [
             {"role": "user", "content": prompt}
         ]
     }
-    
+
     response = requests.post(BASE_URL, headers=headers, data=json.dumps(data))
-    
+    response.raise_for_status()
+    body = response.json()
+
+    for part in body.get("content", []):
+        if part.get("type") == "text":
+            return part.get("text")
+
     if response.status_code == 200:
         return response.json()["content"][0]["text"]
     else:
@@ -183,21 +193,21 @@ def main():
         "false_premise": false_premise,
         "begging_the_question": begging_the_question
     }
-    
+
     results = {}
-    
+
     for fallacy_name, prolog_knowledge in fallacies.items():
         print(f"Generating examples for {fallacy_name}...")
         result = generate_examples(fallacy_name, prolog_knowledge)
         results[fallacy_name] = result
-        
+
         # Save individual result to file
         with open(f"{fallacy_name}_examples.txt", "w") as f:
             f.write(result)
-        
+
         # Wait a bit between API calls to avoid rate limiting
         time.sleep(2)
-    
+
     # Save all results to a single file
     with open("all_fallacy_examples.txt", "w") as f:
         for fallacy_name, result in results.items():

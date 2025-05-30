@@ -7,7 +7,7 @@ from itertools import combinations
 import csv
 import re
 # Load the dataset from the provided CSV file
-file_path = "ruozhiba_label.csv"
+file_path = "SmartyPat_label.csv"
 
 def format_sentence(sentence):
 
@@ -35,7 +35,7 @@ with open(file_path, 'r', encoding='utf-8') as csvfile:
     for row in csvreader:
         sentence = clean_value(row[0].strip())
         sentence = convert_inner_quotes(sentence)
-        fallacy_type = row[11].strip().strip('"')
+        fallacy_type = row[3].strip().strip('"')
         fallacy_list = [f.strip().lower() for f in fallacy_type.split(',') if f.strip()]
         data.append((sentence, fallacy_list))
 

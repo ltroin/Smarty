@@ -1,0 +1,2287 @@
+[
+  {
+    "id": 1,
+    "sentence": "If a library has a 'silence please' rule, and this is interpreted to mean absolutely no sound whatsoever, therefore turning pages or typing quietly is not allowed.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false premise",
+      "equivocation"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying the general rule of 'silence' to all scenarios without allowing reasonable exceptions (e.g., unavoidable sounds like page-turning or quiet typing). It also relies on a **false premise** (interpreting 'silence' as 'absolutely no sound' rather than 'minimal noise'), and involves potential **equivocation** if 'silence' is ambiguously stretched beyond its intended meaning in the rule's context."
+  },
+  {
+    "id": 2,
+    "sentence": "If a road has a speed limit of 65 mph, and someone insists on driving exactly 65 mph even in hazardous weather, therefore slower speeds are never acceptable.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false dilemma"
+    ],
+    "details": "The argument commits the accident fallacy by rigidly applying the general rule (speed limit of 65 mph) to a specific hazardous context where exceptions (slower speeds for safety) are necessary. It also creates a false dilemma by implying that either one drives exactly 65 mph (the legal maximum) or slower speeds are 'never acceptable,' ignoring the possibility of context-dependent adjustments."
+  },
+  {
+    "id": 3,
+    "sentence": "If medication instructions say 'take with food,' and someone believes it must be taken only with a full meal, therefore taking it with a small snack is not allowed.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "equivocation",
+      "accident fallacy",
+      "contextomy"
+    ],
+    "details": "The error arises from misinterpreting the term 'food' in the medication instructions. 'Food' is ambiguous (equivocation) and likely refers to any caloric intake (e.g., a snack), not strictly a full meal. The person applies the rule mechanically (accident fallacy) by rigidly equating 'food' to a full meal, ignoring the broader context. Additionally, narrowing the instruction's meaning constitutes contextomy, as the original intent (any food) is misrepresented by isolating a stricter interpretation."
+  },
+  {
+    "id": 4,
+    "sentence": "If a store has a 'no shoes, no service' policy, and refuses entry to someone with a foot disability wearing specialized foot coverings, therefore only conventional shoes are acceptable.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "equivocation",
+      "false premise"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying the general rule ('no shoes, no service') without considering exceptions (e.g., disability accommodations where specialized foot coverings functionally serve as shoes). It involves **equivocation** by ambiguously interpreting 'shoes' in a narrow, conventional sense, ignoring broader definitions. A **false premise** is also present if the policy assumes 'shoes' must conform to traditional designs, excluding medically necessary alternatives."
+  },
+  {
+    "id": 5,
+    "sentence": "If a restaurant sign says 'wait to be seated,' and customers refuse to sit at empty tables even when the host is momentarily away, therefore no one can sit without explicit permission.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false dilemma",
+      "contextomy"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying the general rule ('wait to be seated') to a specific scenario where the host’s absence creates an exception (empty tables could reasonably be used without explicit permission). It also implies a **false dilemma** (either follow the rule absolutely or violate it entirely) and could involve **contextomy** if the sign’s instruction is interpreted without considering situational nuance (e.g., host availability)."
+  },
+  {
+    "id": 6,
+    "sentence": "If a hotel room has a 'do not disturb' sign, and hotel staff refuse to enter even during a fire alarm, therefore emergencies do not justify entry.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false premise"
+    ],
+    "details": "The argument commits the accident fallacy by rigidly applying the general rule ('do not disturb' signs mean staff should not enter) to an exceptional emergency scenario, ignoring that emergencies typically override such rules. It also relies on a false premise: assuming the staff's refusal to enter during a fire alarm is justified, when in reality, emergencies (like fires) inherently warrant overriding the sign, making the premise irrational."
+  },
+  {
+    "id": 7,
+    "sentence": "If food packaging says 'best before' a certain date, and someone throws away food at midnight even though it's still fresh, therefore food becomes inedible the moment the date changes.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "accident fallacy",
+      "nominal fallacy"
+    ],
+    "details": "The argument commits a **false cause** fallacy by assuming the 'best before' date directly causes the food to become inedible, conflating temporal sequence with causation. It also involves the **accident fallacy** by rigidly applying the 'best before' label as an absolute rule (ignoring contextual factors like food freshness). Additionally, it reflects a **nominal fallacy** by treating the metaphorical/regulatory term 'best before' (indicating quality, not safety) as a literal expiration marker."
+  },
+  {
+    "id": 8,
+    "sentence": "If a swimming pool has a 'no diving in shallow end' rule, and someone prevents a person from retrieving a dropped item by briefly submerging, therefore putting your head underwater is never allowed.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "contextomy"
+    ],
+    "details": "The argument commits the accident fallacy by rigidly applying the 'no diving' rule to all instances of submerging one's head, ignoring contextual exceptions (e.g., briefly retrieving an item). It also involves contextomy by misrepresenting the scope of the rule, which specifically targets diving (a high-risk action) rather than any form of submerging. The conclusion overgeneralizes the rule's intent, conflating distinct actions."
+  },
+  {
+    "id": 9,
+    "sentence": "If a movie theater has a 'no talking' policy, and someone is shushed for whispering essential medical information, therefore no speech is allowed under any circumstances.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "fallacy of composition"
+    ],
+    "details": "The argument commits the accident fallacy by applying the 'no talking' rule rigidly to a specific, exceptional case (medical necessity) to conclude that the rule admits no exceptions. It also commits the fallacy of composition by generalizing from a single instance of enforcement (shushing someone in a specific context) to an absolute, universal claim ('no speech is allowed under any circumstances')."
+  },
+  {
+    "id": 10,
+    "sentence": "If a restaurant offers 'free refills,' and refuses a refill because the customer stepped outside briefly, therefore refills are only available if the person never leaves.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false dilemma"
+    ],
+    "details": "The argument commits the accident fallacy by rigidly applying a specific instance (denial of a refill due to briefly stepping outside) to create an absolute, universal rule ('refills only if you never leave'), ignoring potential nuances in the restaurant's policy (e.g., allowing refills if customers remain on the premises but not if they exit entirely). It also hints at a false dilemma by framing the condition as a strict binary ('never leave' vs. no refills), disregarding possible intermediate scenarios (e.g., leaving the table but staying within the restaurant)."
+  },
+  {
+    "id": 11,
+    "sentence": "If a classroom has a 'raise hand before speaking' rule, and a student is punished for shouting a warning about immediate danger, therefore no speaking is allowed even in emergencies.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false dilemma",
+      "contextomy"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying the general rule ('raise hand before speaking') to an exceptional circumstance (emergency), ignoring the reasonable exception. It also implies a **false dilemma** (either follow the rule absolutely or abandon it entirely) and could involve **contextomy** by stripping the punishment incident from its urgent context to draw an overly broad conclusion."
+  },
+  {
+    "id": 12,
+    "sentence": "If a museum has a 'no photography' policy, and prevents someone from taking a picture of a medical emergency, therefore no photos are allowed under any circumstances.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "fallacy of composition",
+      "false premise"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying the general 'no photography' rule to an exceptional scenario (a medical emergency) and concluding that the rule admits no exceptions. It also resembles the **fallacy of composition** by treating a specific instance (enforcement in one context) as proof of an absolute, universal policy. While the premises are not factually false, the reasoning assumes a 'false premise' about the policy's rigidity (i.e., that enforcement in one case implies no contextual flexibility)."
+  },
+  {
+    "id": 13,
+    "sentence": "If a sign says 'do not feed the animals,' and someone prevents a zookeeper from giving medication hidden in food, therefore absolutely no food provision is allowed by anyone.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "contextomy",
+      "false analogy"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying the general rule ('do not feed the animals') to a specific exception (zookeepers administering medication via food), ignoring legitimate contextual nuance. It also involves **contextomy** by misinterpreting the sign's intended context (preventing casual feeding by visitors, not professional care). A weaker case for **false analogy** exists, as it conflates harmful feeding by visitors with necessary medical care by staff, treating them as equivalent actions."
+  },
+  {
+    "id": 14,
+    "sentence": "If a school has a 'no cell phones' policy, and a teacher confiscates a phone used for monitoring blood glucose levels, therefore phones are not allowed even for medical reasons.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false premise",
+      "fallacy of composition"
+    ],
+    "details": "The argument commits the accident fallacy by rigidly applying the general 'no cell phones' policy to a specific medical exception without considering the legitimacy of such exceptions. It assumes the policy inherently excludes medical cases (a potential false premise if the policy actually allows exemptions) and generalizes the teacher’s action as representative of the policy’s universal application (fallacy of composition)."
+  },
+  {
+    "id": 15,
+    "sentence": "If an airline requires 'seatbelts fastened during turbulence,' and a flight attendant insists a passenger stay seated despite an emergency, therefore seatbelts must always remain fastened no matter what.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false analogy",
+      "contextomy"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying the rule 'seatbelts during turbulence' to all emergencies, ignoring that emergencies (e.g., evacuations) may require exceptions. It also resembles a **false analogy** by treating turbulence and unrelated emergencies as equivalent contexts for seatbelt rules. Additionally, it involves **contextomy** by stripping the original rule ('during turbulence') from its intended context to justify an unrelated generalization ('no matter what')."
+  },
+  {
+    "id": 16,
+    "sentence": "If a book club has a rule 'finish the book before discussion,' and refuses participation from someone who read 99% but skipped the epilogue, therefore every single word must be read.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "improper distribution or addition",
+      "equivocation"
+    ],
+    "details": "The argument commits the accident fallacy by rigidly applying the general rule ('finish the book') without considering exceptions (e.g., whether skipping an epilogue constitutes 'not finishing'). It also improperly distributes the rule's intent (reading 'every single word' as a strict requirement, even if the skipped content is minor). While 'finish the book' could be ambiguous (equivocation), the core issue is the inflexible application of the rule."
+  },
+  {
+    "id": 17,
+    "sentence": "If a mattress has a 'do not remove tag under penalty of law' label, and a consumer believes they can never remove it even after purchase, therefore the tag must stay on forever.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false premise",
+      "contextomy"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying a legal warning (intended for retailers/manufacturers, not consumers post-purchase) as an absolute rule without acknowledging exceptions (e.g., ownership transfer). It also relies on a **false premise** (misunderstanding the law: U.S. regulations prohibit *sellers*, not owners, from removing tags). Additionally, it involves **contextomy** by isolating the tag's warning from its legal context (applying it to the wrong audience/situation)."
+  },
+  {
+    "id": 18,
+    "sentence": "If a pedestrian rule says 'cross only at crosswalks,' and someone refuses to cross elsewhere even when fleeing danger, therefore crosswalks must always be used regardless of circumstances.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false dilemma"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying the general rule ('cross only at crosswalks') to an exceptional circumstance (fleeing danger), ignoring legitimate exceptions. It also implies a **false dilemma** by treating adherence to the rule as the only valid choice, even in emergencies where alternatives (e.g., crossing elsewhere to avoid harm) may be justified."
+  },
+  {
+    "id": 19,
+    "sentence": "If a gym has a 'wipe equipment after use' rule, and someone insists on wiping equipment they only touched but didn't use, therefore touching an object requires cleaning it.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false premise",
+      "improper distribution or addition"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying the gym's 'wipe after use' rule to 'touching,' ignoring the distinction between incidental contact and actual 'use.' It assumes the rule's premise ('use') applies to all forms of interaction (**false premise**), and improperly generalizes a minor action (touching) to a broader obligation (cleaning), akin to **improper distribution**."
+  },
+  {
+    "id": 20,
+    "sentence": "If a recipe says 'bake for exactly 30 minutes,' and someone removes a cake at exactly 30 minutes even though it's undercooked, therefore the timer is more important than the food being properly cooked.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "accident fallacy",
+      "false premise",
+      "contextomy"
+    ],
+    "details": "The argument commits the **accident fallacy** by rigidly applying the general rule ('bake for exactly 30 minutes') without considering contextual factors (e.g., oven variability, ingredient differences). It also implies a **false premise** (the recipe's time instruction is absolute and overrides practical outcomes) and could involve **contextomy** if the recipe’s instruction is misrepresented (e.g., ignoring caveats like 'or until a toothpick comes out clean')."
+  },
+  {
+    "id": 21,
+    "sentence": "Since 'you are what you eat' literally means you physically transform into what you consume, and vegetarians only eat vegetables, therefore vegetarians are turning into vegetables.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise"
+    ],
+    "details": "The argument commits the nominal fallacy by interpreting the metaphorical phrase 'you are what you eat' literally, which is not its intended meaning. It also relies on a false premise that the phrase implies physical transformation rather than symbolic or nutritional influence. This leads to an irrational conclusion."
+  },
+  {
+    "id": 22,
+    "sentence": "Since 'money doesn't grow on trees' literally means money cannot be produced by plants, and paper money is made from trees, therefore trees should naturally produce money.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise"
+    ],
+    "details": "The argument commits the nominal fallacy by interpreting the metaphor 'money doesn’t grow on trees' literally, ignoring its intended meaning (that money is finite). It also relies on a false premise: equating the literal use of trees as material for paper money with the absurd conclusion that trees should 'naturally' produce money. This misrepresents both the metaphor and the actual relationship between trees and currency production."
+  },
+  {
+    "id": 23,
+    "sentence": "Since 'the early bird catches the worm' literally means birds born earlier are better at catching worms, and genetic advantage determines success, therefore humans born in the morning are more intelligent.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy",
+      "false premise"
+    ],
+    "details": "The argument commits a nominal fallacy by interpreting the metaphorical proverb 'the early bird catches the worm' literally, falsely equating 'early bird' (a metaphor for proactive behavior) with literal birds born earlier. It then makes a false analogy between birds' genetic advantages and human intelligence based on birth timing, which lacks logical relevance. Finally, the premise that 'genetic advantage determines success' in this context is unsubstantiated and mechanically applied to humans, reflecting a false premise."
+  },
+  {
+    "id": 24,
+    "sentence": "Since 'don’t put all your eggs in one basket' literally means eggs must be distributed among multiple baskets, and egg farmers use multiple baskets, therefore using more baskets improves egg quality.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise",
+      "false cause"
+    ],
+    "details": "The argument commits a **nominal fallacy** by interpreting the metaphor 'don’t put all your eggs in one basket' literally (assuming physical distribution of eggs directly improves quality). It also involves a **false premise** (the original metaphor is about risk diversification, not quality enhancement) and a **false cause** (assuming basket quantity correlates with egg quality without evidence)."
+  },
+  {
+    "id": 25,
+    "sentence": "Since 'blood is thicker than water' literally means blood has a higher viscosity than water, and dehydration thickens blood, therefore dehydrated people have stronger family bonds.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy",
+      "false cause"
+    ],
+    "details": "The argument commits the nominal fallacy by taking the metaphorical phrase 'blood is thicker than water' (which refers to familial bonds) literally as a statement about blood viscosity. It then falsely analogizes physical blood thickness (due to dehydration) to abstract family bonds, and assumes a false causal relationship between dehydration and familial strength based on this misinterpretation."
+  },
+  {
+    "id": 26,
+    "sentence": "Since 'curiosity killed the cat' literally means curiosity is lethal to felines, and cats are naturally curious, therefore keeping cats in interesting environments should lead to their extinction.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise",
+      "false cause"
+    ],
+    "details": "The argument commits the **nominal fallacy** by interpreting the metaphor 'curiosity killed the cat' literally, treating it as a factual claim about feline mortality rather than a proverb warning against unnecessary risks. It relies on a **false premise** that the phrase's literal meaning is true (curiosity directly causes feline deaths), which contradicts real-world observations (cats are curious but not extinct). It also implies a **false cause**, suggesting environmental enrichment (via 'interesting environments') would mechanistically lead to extinction by increasing curiosity, ignoring actual biological and behavioral complexities."
+  },
+  {
+    "id": 27,
+    "sentence": "Since 'lightning never strikes twice' literally means lightning physically cannot hit the same spot twice, and lightning rods attract lightning, therefore lightning rods must be replaced after each strike.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise"
+    ],
+    "details": "The argument commits the nominal fallacy by taking the metaphorical saying 'lightning never strikes twice' literally, which is factually incorrect (lightning can strike the same place twice). This literal misinterpretation then forms a false premise, as the conclusion about replacing lightning rods relies on the erroneous assumption that lightning cannot strike the same spot again. The conclusion is thus unsound due to the flawed foundational claim."
+  },
+  {
+    "id": 28,
+    "sentence": "Since 'the pen is mightier than the sword' literally means pens are physically stronger than swords, and modern pens contain titanium components, therefore pens are superior weapons in sword fights.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise"
+    ],
+    "details": "The argument commits the nominal fallacy by interpreting the metaphor 'the pen is mightier than the sword' literally (assuming it refers to physical strength). It also relies on a false premise: the original metaphor concerns intellectual or communicative power, not literal combat efficacy. The conclusion about titanium pens being superior weapons in sword fights is derived from this flawed premise, ignoring the contextual and functional differences between pens and swords."
+  },
+  {
+    "id": 29,
+    "sentence": "Since 'great minds think alike' literally means intelligence requires identical thinking, and original thinkers have unique ideas, therefore innovative people cannot be intelligent.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false dilemma",
+      "false premise"
+    ],
+    "details": "The argument commits a nominal fallacy by interpreting the metaphor 'great minds think alike' literally, falsely equating intelligence with identical thinking. It creates a false dilemma by presenting intelligence (allegedly requiring identical thinking) and originality (having unique ideas) as mutually exclusive, ignoring that intelligence and innovation can coexist. The premise that the metaphor's literal meaning defines intelligence is a false premise, as the phrase is a proverb, not a factual claim about cognition."
+  },
+  {
+    "id": 30,
+    "sentence": "Since 'the grass is always greener on the other side' literally means neighboring lawns have better grass, and fertilizers enhance grass color, therefore being jealous of neighbors improves lawn quality.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false cause",
+      "contextomy"
+    ],
+    "details": "The argument commits the nominal fallacy by interpreting the metaphor 'the grass is always greener on the other side' literally, conflating its symbolic meaning (envy/perception) with a literal claim about lawn quality. It then introduces a false cause, asserting that jealousy (a psychological state) directly improves lawn quality via fertilizer use, despite no logical or empirical connection. Contextomy also applies, as the metaphor is stripped of its original context (a commentary on human behavior) and misapplied to a unrelated scenario (gardening)."
+  },
+  {
+    "id": 31,
+    "sentence": "Since 'absence makes the heart grow fonder' literally means physical absence enlarges the heart, and some medical conditions cause enlarged hearts, therefore separation therapy cures heart disease.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy",
+      "false premise"
+    ],
+    "details": "The argument commits the **nominal fallacy** by taking the metaphorical phrase 'absence makes the heart grow fonder' (which refers to emotional longing) literally as a physical enlargement of the heart. It then constructs a **false analogy** between this misinterpretation and medical heart conditions (e.g., cardiomegaly), falsely equating metaphorical and biological 'heart enlargement.' Finally, the conclusion relies on a **false premise** (the literal interpretation of the metaphor) to assert an irrational causal link between 'separation therapy' and curing heart disease, which has no scientific basis."
+  },
+  {
+    "id": 32,
+    "sentence": "Since 'birds of a feather flock together' literally means birds only associate with others of identical plumage, and some bird species have mixed plumage, therefore birds of different colors cannot form flocks.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "accident fallacy",
+      "false premise"
+    ],
+    "details": "The argument commits the nominal fallacy by interpreting the metaphor 'birds of a feather flock together' literally, ignoring its intended meaning about similarity rather than literal plumage. It also commits the accident fallacy by rigidly applying a general rule (the proverb) without considering exceptions (mixed-plumage species) that contradict the conclusion. Additionally, the premise that the proverb's literal interpretation is valid is a false premise, as the phrase is not meant to describe biological behavior."
+  },
+  {
+    "id": 33,
+    "sentence": "Since 'a watched pot never boils' literally means observation prevents water from boiling, and quantum physics involves the observer effect, therefore looking away should speed up cooking time.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy",
+      "false premise"
+    ],
+    "details": "The sentence commits a nominal fallacy by interpreting the metaphorical saying 'a watched pot never boils' literally. It then falsely analogizes the quantum physics observer effect (microscopic phenomena) to macroscopic cooking scenarios, which are unrelated. The argument also relies on a false premise, as the literal interpretation of the proverb and the misapplication of quantum principles are factually incorrect."
+  },
+  {
+    "id": 34,
+    "sentence": "Since 'out of sight, out of mind' literally means invisibility causes memory loss, and the brain processes visual input, therefore blind people must have diminished intellectual capacity.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise",
+      "false analogy"
+    ],
+    "details": "The argument commits a nominal fallacy by taking the metaphor 'out of sight, out of mind' literally to claim that physical invisibility causes memory loss. It further relies on a false premise that this metaphor's literal interpretation is valid. The conclusion that blind people have diminished intellectual capacity is a false analogy, as it incorrectly equates the absence of visual processing (a sensory input) with reduced cognitive ability (a broader intellectual function), ignoring other compensatory cognitive mechanisms."
+  },
+  {
+    "id": 35,
+    "sentence": "Since 'you can't teach an old dog new tricks' literally means elderly dogs cannot learn anything new, and dog training varies by age, therefore training old dogs should be abandoned.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise",
+      "accident fallacy"
+    ],
+    "details": "The argument commits a **nominal fallacy** by interpreting the metaphorical saying 'you can’t teach an old dog new tricks' literally, assuming it is a factual claim about elderly dogs. It also relies on a **false premise** (the literal truth of the metaphor) to conclude that training old dogs should be abandoned. Additionally, it exhibits the **accident fallacy** by mechanically applying the general rule (the saying) without considering exceptions (e.g., individual variation in learning capacity among older dogs)."
+  },
+  {
+    "id": 36,
+    "sentence": "Since 'don’t judge a book by its cover' literally means book covers provide no useful information, and publishers invest heavily in cover design, therefore books should only be selected blindfolded.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "contextomy",
+      "false premise"
+    ],
+    "details": "The argument commits the nominal fallacy by interpreting the metaphorical phrase 'don’t judge a book by its cover' literally, asserting that covers provide 'no useful information.' It also engages in contextomy by stripping the proverb of its intended meaning (advising against superficial judgment) and misapplying it to conclude that covers are irrelevant. Finally, it relies on a false premise: the literal interpretation of the metaphor is factually incorrect, as book covers do provide information (e.g., genre, tone), even if they shouldn’t be the sole basis for judgment."
+  },
+  {
+    "id": 37,
+    "sentence": "Since 'an apple a day keeps the doctor away' literally means apples repel medical professionals, and some people have fruit allergies, therefore medical schools must screen for apple hatred.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise",
+      "false cause"
+    ],
+    "details": "1. **Nominal Fallacy**: The phrase 'an apple a day keeps the doctor away' is a metaphor for healthy habits reducing illness, but it is misinterpreted literally as apples physically repelling doctors. 2. **False Premise**: The argument assumes the literal interpretation is valid, creating a flawed foundation. 3. **False Cause**: It illogically links unrelated concepts (fruit allergies and 'apple hatred') to conclude medical schools must screen for 'apple hatred,' implying causation without evidence."
+  },
+  {
+    "id": 38,
+    "sentence": "Since 'two heads are better than one' literally means having multiple physical heads is advantageous, and some mythological creatures have multiple heads, therefore humans should evolve to have two heads.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise",
+      "false analogy"
+    ],
+    "details": "The argument commits the **nominal fallacy** by interpreting the metaphorical phrase 'two heads are better than one' literally (assuming it refers to physical heads rather than collaborative thinking). It also relies on a **false premise** by treating mythological creatures (fictional entities) as valid evidence for a biological claim about human evolution. Finally, it uses a **false analogy** by equating mythological multi-headed creatures (which are not bound by real-world evolutionary constraints) to humans, implying a shared biological imperative."
+  },
+  {
+    "id": 39,
+    "sentence": "Since 'all that glitters is not gold' literally means shiny materials cannot be gold, and gold is naturally lustrous, therefore dull materials are more likely to be real gold.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise",
+      "equivocation"
+    ],
+    "details": "The sentence commits a **nominal fallacy** by taking the metaphorical proverb 'all that glitters is not gold' literally, misinterpreting its intent (which warns against superficial appearances, not a literal claim about gold's properties). It also relies on a **false premise** (gold is not inherently dull; it is naturally lustrous, so the premise 'shiny materials cannot be gold' is factually incorrect). Additionally, there is a subtle **equivocation** in redefining 'glitters' to exclude gold's actual properties, distorting the original meaning of the phrase."
+  },
+  {
+    "id": 40,
+    "sentence": "Since 'the customer is always right' literally means customers never make factual errors, and customers have varying levels of expertise, therefore consulting customers is better than expert advice.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise"
+    ],
+    "details": "The argument commits the nominal fallacy by interpreting the metaphorical business slogan 'the customer is always right' as a literal claim about customers' factual infallibility. It also relies on a false premise: the literal interpretation of the slogan is factually incorrect (the phrase is about service prioritization, not epistemic accuracy). The conclusion that customer input is superior to expert advice does not follow logically from the premises, as varying expertise among customers does not inherently outweigh specialized knowledge from experts."
+  },
+  {
+    "id": 41,
+    "sentence": "Since raining implies wet ground, not raining must imply dry ground.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false cause"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It assumes that because 'raining' implies 'wet ground' (if A then B), the absence of rain (not A) necessarily implies the absence of wet ground (not B). This is invalid because wet ground could result from other causes (e.g., sprinklers, melting snow, etc.), making the conclusion a false negation of the antecedent. It also loosely aligns with 'false cause' by implying a strict causal relationship where none is guaranteed."
+  },
+  {
+    "id": 42,
+    "sentence": "Since being a bird implies the ability to fly, not being a bird must imply the inability to fly.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false premise"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It incorrectly assumes that 'if A (being a bird) implies B (ability to fly), then not A (not being a bird) implies not B (inability to fly).' This is invalid because non-birds (e.g., bats, insects) can fly. The premise 'being a bird implies the ability to fly' is also partially false (e.g., penguins are birds but cannot fly), introducing a false premise."
+  },
+  {
+    "id": 43,
+    "sentence": "Since being a mammal implies having hair, not being a mammal must imply being hairless.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false premise"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It incorrectly assumes that if being a mammal (A) implies having hair (B), then not being a mammal (¬A) implies being hairless (¬B). This is invalid because the original conditional (A→B) does not logically entail its inverse (¬A→¬B). For example, non-mammals like birds (e.g., kiwi) or insects (e.g., tarantulas) may still have hair-like structures, disproving the conclusion. The false premise arises from assuming a strict biconditional relationship (A↔B) where only a one-way implication (A→B) is justified."
+  },
+  {
+    "id": 44,
+    "sentence": "Since being a student implies studying, not being a student must imply not studying.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "improper transposition"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It incorrectly assumes that the negation of the antecedent ('not being a student') necessarily leads to the negation of the consequent ('not studying'). This is invalid because the original implication ('if A then B') does not logically entail its inverse ('if not A then not B'). For example, non-students (e.g., professionals, self-learners) might still study. The error also resembles improper transposition, as it conflates the inverse with the contrapositive (which would validly be 'if not B then not A')."
+  },
+  {
+    "id": 45,
+    "sentence": "Since fire produces smoke, the absence of fire must mean no smoke.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "denying the antecedent"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It assumes that because fire (A) leads to smoke (B), the absence of fire (¬A) necessarily means no smoke (¬B). This is logically invalid, as smoke could arise from other causes (e.g., smoldering embers, industrial processes) even in the absence of an active fire. The fallacy lies in reversing the conditional relationship without justification."
+  },
+  {
+    "id": 46,
+    "sentence": "Since running raises the heart rate, not running must mean a normal heart rate.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It assumes that because running (A) causes an elevated heart rate (B), not running (~A) necessarily results in a normal heart rate (~B). This is invalid because other factors (e.g., stress, illness, other activities) could also affect heart rate, making the conclusion unsound."
+  },
+  {
+    "id": 47,
+    "sentence": "Since driving legally requires a license, not driving legally must mean not having a license.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false dilemma"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It assumes that because driving legally requires a license (if A then B), not driving legally (¬A) must imply not having a license (¬B). This is invalid because there are other reasons for driving illegally (e.g., driving with an expired/suspended license, violating traffic laws). Additionally, it presents a false dilemma by reducing all illegal driving scenarios to the single factor of lacking a license."
+  },
+  {
+    "id": 48,
+    "sentence": "Since poisonous mushrooms are dangerous, non-poisonous mushrooms must be safe.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It assumes that because poisonous mushrooms (A) are dangerous (B), the absence of poison (¬A) necessarily implies safety (¬B). This is invalid because non-poisonous mushrooms might still pose risks (e.g., allergies, indigestion, or other toxins unrelated to 'poison'), so ¬A does not guarantee ¬B. The fallacy structurally follows: 'If A then B, therefore ¬A → ¬B,' which is logically unsound."
+  },
+  {
+    "id": 49,
+    "sentence": "Since a triangle is a shape, not being a triangle must mean not being a shape.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false premise"
+    ],
+    "details": "the argument commits the inverse error (denying the antecedent): it incorrectly infers 'if not A (not a triangle), then not B (not a shape)' from 'if A (triangle), then B (shape).' this is invalid, as there are many non-triangle shapes (e.g., squares). the premise 'a triangle is a shape' is true, but the conclusion relies on a false logical structure, not a false premise itself."
+  },
+  {
+    "id": 50,
+    "sentence": "Since trees are plants, not being a tree must mean not being a plant.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error"
+    ],
+    "details": "The argument commits the inverse error. It incorrectly assumes that because all trees are plants (if A then B), not being a tree (¬A) implies not being a plant (¬B). This is invalid because there are many other types of plants (e.g., shrubs, flowers) that are not trees. Denying the antecedent (not being a tree) does not logically justify denying the consequent (not being a plant)."
+  },
+  {
+    "id": 51,
+    "sentence": "Since metals conduct electricity, non-metals must be insulators.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "accident fallacy"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent): it assumes that because metals (A) conduct electricity (B), non-metals (¬A) must not conduct electricity (¬B). This is invalid, as some non-metals (e.g., graphite) conduct electricity. It also reflects the accident fallacy by rigidly applying the general rule 'metals conduct electricity' to conclude 'non-metals cannot,' ignoring exceptions."
+  },
+  {
+    "id": 52,
+    "sentence": "Since dogs are animals, not being a dog must mean not being an animal.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false premise"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It assumes that if being a dog (A) implies being an animal (B), then not being a dog (¬A) implies not being an animal (¬B). This is invalid because there are animals that are not dogs (e.g., cats, birds). The premise 'dogs are animals' is true, but the conclusion falsely extends this to exclude non-dogs from being animals, making it a false premise in practice due to its invalid logical structure."
+  },
+  {
+    "id": 53,
+    "sentence": "Since swimming gets you wet, not swimming must mean staying dry.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false dilemma"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It assumes that because swimming (A) leads to getting wet (B), not swimming (~A) necessarily leads to staying dry (~B). This is invalid, as other factors (e.g., rain, sweating) could cause someone to get wet even if they are not swimming. While the phrasing superficially resembles a binary choice (swim/don’t swim), the core fallacy lies in the invalid logical structure (~A → ~B), making 'inverse error' the primary issue."
+  },
+  {
+    "id": 54,
+    "sentence": "Since snowing means cold weather, not snowing must mean warm weather.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false dilemma"
+    ],
+    "details": "The statement commits the inverse error (denying the antecedent): it incorrectly assumes that because snowing implies cold weather (if A, then B), not snowing (¬A) necessarily implies warm weather (¬B). This is invalid, as cold weather might persist even without snowfall. Additionally, it implies a false dilemma by oversimplifying weather conditions into only 'cold' or 'warm' when intermediate temperatures exist."
+  },
+  {
+    "id": 55,
+    "sentence": "Since coffee contains caffeine, non-coffee beverages must be caffeine-free.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false premise",
+      "fallacy of composition"
+    ],
+    "details": "The argument commits an inverse error (denying the antecedent). Its structure is: 'If a beverage is coffee (A), then it contains caffeine (B). Therefore, if a beverage is not coffee (¬A), it does not contain caffeine (¬B).' This is logically invalid, as non-coffee beverages (e.g., tea, energy drinks) can still contain caffeine. Additionally, it assumes a false premise (that caffeine exclusivity defines coffee) and improperly generalizes a property of one category (coffee) to negate it for all others (fallacy of composition)."
+  },
+  {
+    "id": 56,
+    "sentence": "Since infection requires exposure to pathogens, being uninfected must mean no exposure.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It assumes that because infection (A) requires exposure to pathogens (B), the absence of infection (~A) necessarily implies no exposure (~B). However, this is logically invalid: the original premise 'if A then B' does not guarantee 'if ~A then ~B.' A person might avoid infection despite exposure (e.g., due to immunity) or might lack infection for reasons unrelated to exposure (e.g., no pathogen presence). The error lies in reversing the conditional relationship without justification."
+  },
+  {
+    "id": 57,
+    "sentence": "Since mathematicians know algebra, non-mathematicians must not know algebra.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false premise"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent) by assuming that if being a mathematician (A) implies knowing algebra (B), then not being a mathematician (¬A) implies not knowing algebra (¬B). This is logically invalid. Additionally, it relies on a false premise that *only* mathematicians know algebra, which is empirically untrue, as algebra can be known by others (e.g., physicists, engineers, students)."
+  },
+  {
+    "id": 58,
+    "sentence": "Since prime numbers are integers, non-prime numbers must not be integers.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false premise"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent): it assumes that if primes (A) are integers (B), then non-primes (¬A) must not be integers (¬B). This is invalid because non-prime numbers (e.g., composite numbers like 4, 6, or 1) are still integers. It also relies on a false premise, as the conclusion that non-primes 'must not be integers' is factually incorrect."
+  },
+  {
+    "id": 59,
+    "sentence": "Since vegetarians do not eat meat, non-vegetarians must eat meat.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false dilemma"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent): it assumes that because vegetarians (A) do not eat meat (B), non-vegetarians (¬A) must eat meat (¬B), which is invalid. It also implies a false dichotomy by suggesting non-vegetarians are strictly meat-eaters, ignoring potential nuances (e.g., flexitarians, dietary restrictions)."
+  },
+  {
+    "id": 60,
+    "sentence": "Since Olympic qualification requires being an athlete, not qualifying must mean not being an athlete.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "inverse error",
+      "false premise"
+    ],
+    "details": "The argument commits the inverse error (denying the antecedent). It assumes that if qualifying for the Olympics (A) requires being an athlete (B), then not qualifying (¬A) necessarily means not being an athlete (¬B). This is invalid because there could be athletes who fail to qualify due to factors like performance, injuries, or competition rules. The premise also oversimplifies Olympic qualification criteria (false premise), as being an athlete is necessary but not sufficient for qualification."
+  },
+  {
+    "id": 61,
+    "sentence": "If vitamins are essential for health, and the letter of a vitamin determines the disease it prevents, and Vitamin C prevents scurvy, then Vitamin D must prevent dysentery.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false premise",
+      "false cause"
+    ],
+    "details": "The argument commits a **false analogy** by assuming that because Vitamin C (letter 'C') prevents scurvy, Vitamin D (letter 'D') must similarly prevent dysentery based solely on the alphabetical naming convention, which is irrelevant to the actual biological function of vitamins. The premise that 'the letter of a vitamin determines the disease it prevents' is a **false premise**, as vitamin letters (e.g., C, D) are historical labels, not causal indicators of their roles. Additionally, it implies a **false cause** by linking the letter to the disease without evidence of causation."
+  },
+  {
+    "id": 62,
+    "sentence": "If objects fall due to gravity at 9.8 m/s² on Earth, and gravity is determined by a planet's first letter, and Mars starts with 'M,' then Mars must have gravity of 13 m/s².",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false premise",
+      "false analogy",
+      "false cause"
+    ],
+    "details": "The argument relies on a 'false premise' (gravity being determined by a planet's first letter, which is scientifically baseless). It commits a 'false analogy' by arbitrarily linking alphabetical order (e.g., Earth's 'E' to 9.8 m/s² and Mars's 'M' to 13 m/s²) without a valid logical or empirical connection. Additionally, it implies a 'false cause' by asserting a causal relationship between the planet's first letter and gravity, ignoring actual determinants like mass and radius."
+  },
+  {
+    "id": 63,
+    "sentence": "If the Moon orbits Earth and has no atmosphere, and orbiting another body prevents atmospheres, and planets orbit the Sun, then planets must not have atmospheres.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false cause",
+      "fallacy of composition"
+    ],
+    "details": "The argument commits a **false analogy** by equating the Moon (a natural satellite) with planets, ignoring critical differences (e.g., size, gravity, geological activity) that determine atmospheric retention. It also assumes a **false cause** by attributing the Moon’s lack of atmosphere solely to its orbital status, ignoring other factors. A weaker **fallacy of composition** is present by implying that a property of one orbiting body (the Moon) applies to all orbiting bodies (planets), despite their distinct characteristics."
+  },
+  {
+    "id": 64,
+    "sentence": "If bananas contain potassium and are yellow, and food color determines mineral content, and lemons are yellow, then lemons must be high in potassium.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false premise",
+      "false cause"
+    ],
+    "details": "The argument falsely analogizes bananas and lemons based on their shared color (yellow) to conclude they share potassium content, ignoring other factors (false analogy). It relies on the unsubstantiated premise that 'food color determines mineral content,' which is scientifically incorrect (false premise). Additionally, it implies a causal link between color and mineral content without evidence (false cause)."
+  },
+  {
+    "id": 65,
+    "sentence": "If water is H₂O and liquid at room temperature, and the number of atoms determines physical state, and methane (CH₄) has more atoms, then methane must be a liquid at room temperature.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false_analogy",
+      "false_premise",
+      "accident_fallacy"
+    ],
+    "details": "The argument commits a **false analogy** by assuming that because water (H₂O) and methane (CH₄) share the feature of being composed of multiple atoms, they must share the physical state (liquid) despite critical differences like molecular structure and intermolecular forces. The premise 'the number of atoms determines physical state' is a **false premise**, as physical state depends on factors like molecular weight and bonding, not just atom count. The **accident fallacy** occurs by rigidly applying the flawed premise without considering exceptions or additional variables (e.g., methane’s lower molecular weight leading to gaseous state)."
+  },
+  {
+    "id": 66,
+    "sentence": "If a square has four sides and its angles sum to 360°, and the number of sides determines total interior angles, and a triangle has three sides, then a triangle’s angles must sum to 270°.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false premise",
+      "false analogy",
+      "accident fallacy"
+    ],
+    "details": "The argument incorrectly assumes the total interior angles of a polygon are calculated as 90° per side (e.g., 4 sides × 90° = 360°). The correct formula is (n-2)×180°, where n is the number of sides. Applying this, a triangle (3 sides) would have (3-2)×180° = 180°, not 270°. The error stems from a **false premise** (incorrect mathematical rule) and a **false analogy** (assuming the linear relationship from squares applies universally). It also resembles an **accident fallacy** by mechanically applying a flawed 'rule' without verifying its validity."
+  },
+  {
+    "id": 67,
+    "sentence": "If the Nile flows north and is in Africa, and river direction determines continent, and the Amazon flows east, then the Amazon must be in Europe.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false premise",
+      "false analogy",
+      "false cause"
+    ],
+    "details": "The argument relies on a **false premise** ('river direction determines continent'), which is factually incorrect (river direction is determined by geography, not continent). It commits a **false analogy** by assuming that because the Nile's northward flow and African location are linked, the Amazon's eastward flow must analogously link to Europe. It also implies a **false cause**, treating river direction as a causal determinant of continent, despite no logical or empirical connection."
+  },
+  {
+    "id": 68,
+    "sentence": "If English is a Germanic language and uses the Latin alphabet, and language family determines writing system, and Japanese is not Germanic, then Japanese must not use Latin characters.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false premise",
+      "false analogy",
+      "fallacy of composition"
+    ],
+    "details": "The argument contains a false premise: the claim that 'language family determines writing system' is incorrect (e.g., Turkish, a non-Germanic language, uses the Latin alphabet). It also commits a false analogy by assuming that a shared language family (Germanic) necessitates a shared writing system, ignoring historical/cultural factors. The fallacy of composition is present if inferring that all languages in a family inherit traits from one member (English's Latin script ≠ all Germanic languages use it)."
+  },
+  {
+    "id": 69,
+    "sentence": "If computers use binary (0 and 1) for calculations, and number base limits operations, and humans use base 10, then humans must not be able to multiply.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false premise"
+    ],
+    "details": "The argument falsely equates the computational limitations of a number base (binary vs. decimal) with the ability to perform operations like multiplication. This is a **false analogy**, as the numeral system (base 10 vs. base 2) does not inherently restrict the capacity for arithmetic operations—it merely changes their representation. The claim also relies on a **false premise** that 'number base limits operations' in a way that would prevent humans from multiplying, which is demonstrably untrue (humans multiply effectively in base 10). The conclusion ignores the distinction between symbolic representation and operational capability."
+  },
+  {
+    "id": 70,
+    "sentence": "If memory consolidates during sleep and dreaming happens in REM, and all cognition requires dreams, and some people don’t remember dreams, then they must be unable to form long-term memories.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false premise",
+      "inverse error",
+      "false cause"
+    ],
+    "details": "The argument contains a **false premise** ('all cognition requires dreams'), which is an unsubstantiated overgeneralization. It commits an **inverse error** (denying the antecedent) by assuming that not remembering dreams (¬A) implies not dreaming (¬B), leading to the faulty conclusion about impaired memory. Additionally, it conflates correlation (dream recall and memory formation) with causation, invoking **false cause**, as lack of dream recall does not necessarily indicate absence of dreaming or memory consolidation."
+  },
+  {
+    "id": 71,
+    "sentence": "If the Roman Empire lasted centuries and influenced culture, and empire longevity determines impact, and the Mongol Empire lasted a shorter time, then the Mongols must have had no cultural impact.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false premise",
+      "false cause",
+      "accident fallacy"
+    ],
+    "details": "The argument relies on a false premise that empire longevity is the sole determinant of cultural impact, which is unproven and oversimplified. It commits a false cause fallacy by assuming shorter duration directly causes a lack of impact (correlation ≠ causation). Additionally, it applies the general rule about longevity rigidly (accident fallacy), ignoring historical evidence of the Mongol Empire's significant cultural influence despite its shorter lifespan."
+  },
+  {
+    "id": 72,
+    "sentence": "If pianos are large and have 88 keys, and instrument size determines note range, and violins are small, then violins must only be able to play a few notes.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "accident fallacy",
+      "false premise"
+    ],
+    "details": "The argument commits a **false analogy** by equating pianos and violins in how size determines note range, ignoring their structural differences (keys vs. strings). The **accident fallacy** applies a general rule ('size determines note range') rigidly to violins without considering their unique mechanics (e.g., finger placement on strings enabling many notes). The premise 'instrument size determines note range' may also be a **false premise**, as note range in many instruments depends on factors beyond physical size (e.g., string length, playing technique), making the causal claim questionable."
+  },
+  {
+    "id": 73,
+    "sentence": "If plants are green because they use chlorophyll for photosynthesis, and color determines energy source, and mushrooms aren’t green, then mushrooms must use sound waves for energy.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false premise",
+      "false analogy",
+      "false cause"
+    ],
+    "details": "The argument contains multiple logical errors. First, the premise 'color determines energy source' is a **false premise**; while chlorophyll's green color relates to photosynthesis in plants, color alone does not inherently determine an organism's energy source (e.g., fungi like mushrooms decompose organic matter, unrelated to color). Second, it commits a **false analogy** by equating plants (which photosynthesize) with mushrooms (fungi that do not), assuming their energy mechanisms must follow the same color-based logic. Finally, it introduces a **false cause** by concluding mushrooms 'must use sound waves' solely because they lack green pigmentation, asserting an unsupported causal link between color and an unrelated energy source."
+  },
+  {
+    "id": 74,
+    "sentence": "If lightning is an electrical discharge and thunder follows it, and timing determines causality, and light is seen before sound is heard, then light must cause all sound.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "false premise",
+      "accident fallacy"
+    ],
+    "details": "The argument commits a **false cause** fallacy by assuming that because light (from lightning) precedes sound (thunder), light causes all sound. This conflates temporal sequence with causation. It also relies on a **false premise** that 'timing determines causality,' which is an irrational basis for universal claims. Further, it applies the flawed premise mechanically to all instances of light and sound (e.g., generalizing from a specific natural phenomenon to all sound), aligning with the **accident fallacy**."
+  },
+  {
+    "id": 75,
+    "sentence": "If inflation decreases purchasing power and is measured by CPI, and words with similar prefixes describe the same phenomenon, and 'influence' starts with 'infl-,' then increasing global influence must reduce currency value.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy",
+      "false cause"
+    ],
+    "details": "The argument commits a nominal fallacy by assuming that the shared prefix 'infl-' between 'inflation' and 'influence' implies a causal or conceptual connection, despite their unrelated meanings. This treats linguistic similarity as a literal or causal relationship. It also relies on a false analogy, equating two distinct phenomena (economic inflation and geopolitical influence) solely because of their prefixes. Additionally, it implies a false cause by suggesting that increasing global influence (unrelated to monetary policy) directly reduces currency value, despite no logical or empirical link being established."
+  },
+  {
+    "id": 76,
+    "sentence": "If the Eiffel Tower is made of iron and is in Paris, and building material determines location, and the Empire State Building is made of steel, then the Empire State Building must be in Asia.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false premise",
+      "false cause"
+    ],
+    "details": "The argument falsely analogizes the relationship between building material and location (iron → Paris, steel → Asia) without evidence of causation, treating a coincidental or arbitrary trait (material) as determinative. The premise 'building material determines location' is unsubstantiated (false premise) and irrational. The conclusion also assumes a causal link (false cause) between material and geography, which is unsupported."
+  },
+  {
+    "id": 77,
+    "sentence": "If the human heart beats 60–100 times per minute at rest and organ function rate is proportional to size, and elephants are larger than humans, then elephant hearts must beat 200+ times per minute.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false premise",
+      "false analogy"
+    ],
+    "details": "The argument relies on a false premise that 'organ function rate is proportional to size,' which is biologically incorrect. In reality, larger animals typically have slower heart rates (e.g., elephants have ~30 bpm). The analogy between human and elephant physiology is flawed, as heart rate inversely correlates with body size due to metabolic scaling laws, not direct proportionality."
+  },
+  {
+    "id": 78,
+    "sentence": "If dinosaurs went extinct 65 million years ago due to a meteor, and extinction method determines historical era, and dodo birds went extinct due to hunting, then dodos must have lived millions of years ago.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false premise",
+      "false analogy",
+      "false cause"
+    ],
+    "details": "The argument relies on the false premise that 'extinction method determines historical era,' which is not empirically valid (eras are defined by time, not extinction causes). It also commits a false analogy by assuming that distinct extinction methods (meteor vs. hunting) must correspond to distinct eras, ignoring that dodos went extinct in the 17th century due to human activity. Finally, it implies a false cause by linking extinction causes to temporal eras without evidence of causal necessity."
+  },
+  {
+    "id": 79,
+    "sentence": "If Supreme Court justices interpret laws and serve lifetime appointments, and job tenure determines professional role, and athletes have short careers, then athletes must not be able to judge rules.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false premise",
+      "non sequitur"
+    ],
+    "details": "The argument commits a false analogy by equating the roles of Supreme Court justices (legal interpretation) and athletes (physical/sporting roles) based on tenure length, ignoring critical differences in their professional responsibilities and required skills. The premise 'job tenure determines professional role' is a false premise, as tenure duration does not inherently define one's capacity for unrelated tasks (e.g., judging rules). The conclusion also does not logically follow (non sequitur), as short athletic careers do not preclude understanding or judging rules in sports or other contexts."
+  },
+  {
+    "id": 80,
+    "sentence": "If Shakespeare wrote in English and composed plays and sonnets, and language determines literary form, and haikus originated in Japanese, then English writers must be unable to write haikus.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "accident fallacy",
+      "false dilemma"
+    ],
+    "details": "The argument falsely equates the origin of a literary form (haikus in Japanese) with an inherent inability to adopt it in another language (English), making it a **false analogy**. It also rigidly applies the premise that 'language determines literary form' without allowing for exceptions (e.g., cross-cultural adaptation of forms), constituting an **accident fallacy**. Additionally, it implies a binary choice (English writers either adhere strictly to their language's 'native' forms or cannot use others), resembling a **false dilemma** by ignoring the possibility of transcending linguistic or cultural boundaries."
+  },
+  {
+    "id": 81,
+    "sentence": "Since hornets make buzzing sounds, and French horns have 'horn' in their name, therefore French horns must also make buzzing sounds.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "nominal fallacy",
+      "equivocation"
+    ],
+    "details": "The argument falsely assumes that because 'hornets' (insects) and 'French horns' (musical instruments) share the word 'horn' in their names, they must share the functional trait of producing buzzing sounds. This is a **false analogy**, as the superficial similarity in naming does not justify attributing shared properties. It also reflects a **nominal fallacy** by conflating the literal/metaphorical use of the word 'horn' (e.g., insect anatomy vs. instrument nomenclature). While 'equivocation' (semantic ambiguity) is tangentially relevant, the core error lies in the flawed analogy and misapplication of naming conventions."
+  },
+  {
+    "id": 82,
+    "sentence": "Since bats are mammals that fly, and baseball bats share the name 'bat,' therefore baseball bats must also be mammals that can fly.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "equivocation",
+      "nominal fallacy"
+    ],
+    "details": "The argument equivocates on the term 'bat,' conflating its two distinct meanings (the flying mammal and the sports equipment). This semantic ambiguity falsely assumes that shared nomenclature implies shared biological traits. It also commits a nominal fallacy by treating the metaphorical/lexical overlap as literal (i.e., interpreting the name 'bat' as indicative of essential properties)."
+  },
+  {
+    "id": 83,
+    "sentence": "Since caterpillars turn into butterflies, and 'cat' is in the word 'caterpillar,' therefore cats must turn into butterflies too.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "nominal fallacy"
+    ],
+    "details": "The argument falsely assumes that because the word 'caterpillar' contains the substring 'cat,' there is a causal or biological relationship between cats and caterpillars/butterflies. This is a false analogy (comparing based on a superficial linguistic similarity, not actual properties) and a nominal fallacy (treating the structure of a word as a literal reflection of reality)."
+  },
+  {
+    "id": 84,
+    "sentence": "Since computer mice can click, and animal mice have 'mouse' in their name, therefore animal mice must also be able to click.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy"
+    ],
+    "details": "The argument commits a nominal fallacy by assuming that animal mice must share functional traits (clicking) with computer mice solely because they share the same name. It also involves a false analogy, treating the two distinct entities (animal and computer peripheral) as comparable based on a superficial linguistic similarity, ignoring their fundamental differences in nature and function."
+  },
+  {
+    "id": 85,
+    "sentence": "Since time flies, and flies are insects, therefore time must be an insect.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "equivocation",
+      "nominal fallacy"
+    ],
+    "details": "The argument exploits the dual meaning of 'flies.' In 'time flies,' 'flies' is a verb (to pass swiftly), while in 'flies are insects,' it is a noun (the insect). This semantic ambiguity constitutes equivocation. Additionally, the metaphor 'time flies' is taken literally (interpreting 'flies' as the insect), aligning with the nominal fallacy."
+  },
+  {
+    "id": 86,
+    "sentence": "Since hot dogs are food, and dogs are animals, therefore hot dogs must be animals too.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "equivocation"
+    ],
+    "details": "The argument commits the equivocation fallacy by using the term 'dogs' ambiguously. In the first premise, 'hot dogs' refers to a type of food, while in the second premise, 'dogs' refers to animals. The conclusion incorrectly assumes that because the word 'dogs' is part of both terms, the attributes (being animals) must apply to both, exploiting the polysemy of the word 'dogs' to create a misleading connection."
+  },
+  {
+    "id": 87,
+    "sentence": "Since butter melts when heated, and butterflies have 'butter' in their name, therefore butterflies must melt when heated.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "equivocation",
+      "false analogy",
+      "nominal fallacy"
+    ],
+    "details": "The argument commits equivocation by ambiguously interpreting the term 'butter' in 'butterflies' as equivalent to the dairy product 'butter,' despite the words having distinct meanings. It also relies on a false analogy, assuming that because two entities share a linguistic element ('butter'), they share physical properties (melting when heated). The nominal fallacy applies if the argument interprets the name 'butterfly' literally, mistakenly attributing properties of 'butter' to the insect based solely on the name."
+  },
+  {
+    "id": 88,
+    "sentence": "Since eggplants have 'egg' in their name, and eggs come from chickens, therefore eggplants must come from chickens too.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy",
+      "equivocation"
+    ],
+    "details": "The argument commits a nominal fallacy by interpreting the word 'eggplant' literally, falsely assuming the name implies a direct connection to chicken eggs. It also involves a false analogy, equating the linguistic feature ('egg' in the name) with a biological relationship. While less central, there is a trace of equivocation in conflating the semantic origin of the term 'eggplant' (historically linked to a visual resemblance to eggs, not chickens) with its biological origin."
+  },
+  {
+    "id": 89,
+    "sentence": "Since seahorses have 'horse' in their name, and horses run on land, therefore seahorses must run on land too.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy"
+    ],
+    "details": "The argument commits the nominal fallacy by interpreting the metaphorical name 'seahorse' literally (assuming linguistic similarity implies behavioral similarity). It also employs a false analogy, incorrectly inferring that because seahorses share a name with land horses, they must share unrelated traits like terrestrial locomotion."
+  },
+  {
+    "id": 90,
+    "sentence": "Since strawberries have 'straw' in their name, and straw comes from wheat, therefore strawberries must come from wheat plants.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "equivocation",
+      "false premise"
+    ],
+    "details": "The argument commits a **nominal fallacy** by interpreting the word 'straw' in 'strawberry' literally, as if the name directly defines the fruit's origin. It also uses **equivocation** by conflating the unrelated meanings of 'straw' (a plant material) and the etymological root of 'strawberry' (unrelated to wheat). The **false premise** lies in assuming the linguistic component of the name accurately reflects biological reality."
+  },
+  {
+    "id": 91,
+    "sentence": "Since hammers hit metal nails, and fingernails have 'nail' in their name, therefore hammers should hit fingernails.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "equivocation",
+      "false analogy",
+      "nominal fallacy"
+    ],
+    "details": "The argument commits equivocation by exploiting the semantic ambiguity of the word 'nail' (metal nails vs. fingernails). It also relies on a false analogy, treating the two distinct types of 'nails' as functionally equivalent solely because they share a name. Additionally, it reflects a nominal fallacy by assuming the shared linguistic label implies shared properties or functions."
+  },
+  {
+    "id": 92,
+    "sentence": "Since sandwiches have 'sand' in their name, and sand is found at the beach, therefore sandwiches must be found at the beach.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "equivocation",
+      "nominal fallacy",
+      "false premise"
+    ],
+    "details": "The argument commits **equivocation** by falsely equating the linguistic component 'sand' in 'sandwich' (a historical name derived from the Earl of Sandwich) with literal sand (the granular material). This semantic ambiguity is exploited to draw an invalid conclusion. It also involves a **nominal fallacy** by assuming the literal meaning of a word's components defines its real-world properties. The premise that sandwiches contain 'sand' is a **false premise**, as the etymology of 'sandwich' is unrelated to beach sand."
+  },
+  {
+    "id": 93,
+    "sentence": "Since ladybugs have 'lady' in their name, and ladies are human, therefore ladybugs must be human.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false premise",
+      "equivocation"
+    ],
+    "details": "The argument commits the nominal fallacy by interpreting the term 'lady' in 'ladybug' literally (as referring to human women) rather than recognizing it as a conventional name unrelated to the insect's biological classification. It also relies on a false premise (that linguistic components of a name define the entity's nature) and equivocates by conflating the semantic meaning of 'lady' in human contexts with its unrelated use in taxonomy."
+  },
+  {
+    "id": 94,
+    "sentence": "Since earthquakes shake the ground, and milkshakes have 'shake' in their name, therefore milkshakes must shake the ground too.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "equivocation",
+      "nominal fallacy",
+      "false analogy"
+    ],
+    "details": "The argument commits equivocation by exploiting the semantic ambiguity of the word 'shake' (earthquakes physically 'shake' the ground vs. milkshakes containing 'shake' as part of their name). It also resembles the nominal fallacy by treating the literal meaning of a word (part of a compound noun) as functionally equivalent to its action-based definition. The false analogy arises from assuming a causal relationship based on a superficial linguistic similarity."
+  },
+  {
+    "id": 95,
+    "sentence": "Since fireflies contain 'fire' in their name, and fire is hot, therefore fireflies must be hot to touch.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "equivocation"
+    ],
+    "details": "The argument commits the nominal fallacy by assuming the literal meaning of the word 'fire' in 'fireflies' implies a physical property (heat) of the insect. It also involves equivocation, as 'fire' in the name is a metaphor for bioluminescence, not actual fire, creating semantic ambiguity."
+  },
+  {
+    "id": 96,
+    "sentence": "Since pineapples have 'apple' in their name, and apples grow on trees, therefore pineapples must grow on trees.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy",
+      "equivocation"
+    ],
+    "details": "The argument erroneously assumes that the word 'apple' in 'pineapple' implies a literal connection to the fruit 'apple', leading to the conclusion that pineapples grow on trees. This conflates linguistic naming (a historical/metaphorical origin) with biological reality, committing the **nominal fallacy** (taking a metaphor literally). It also draws a false equivalence between apples and pineapples based solely on a shared term (**false analogy**), and misinterprets the semantic role of 'apple' in 'pineapple' (**equivocation** via polysemy)."
+  },
+  {
+    "id": 97,
+    "sentence": "Since buffalo animals roam, and buffalo wings have 'buffalo' in their name, therefore buffalo wings must be able to roam.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy",
+      "equivocation"
+    ],
+    "details": "The argument commits a **nominal fallacy** by assuming that because 'buffalo wings' share the word 'buffalo' with the animal, they must literally inherit the animal's trait (roaming). This conflates a name's origin (buffalo wings are named after Buffalo, New York, not the animal) with literal meaning. It also involves a **false analogy**, falsely equating two unrelated entities (animals and food) based on a superficial linguistic similarity. The term 'buffalo' is used equivocally (city vs. animal), though this is secondary to the nominal fallacy and analogy errors."
+  },
+  {
+    "id": 98,
+    "sentence": "Since blackboards are used for writing, and black bears have 'black' in their name, therefore black bears must be good for writing on.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "equivocation",
+      "nominal fallacy"
+    ],
+    "details": "The argument commits a false analogy by equating 'blackboards' (writing surfaces) and 'black bears' (animals) solely because they share the word 'black,' despite no functional connection. It also involves equivocation, as 'black' is ambiguously applied (literal color vs. part of a name). Additionally, it reflects the nominal fallacy by treating the name 'black bear' as a literal descriptor of utility for writing, akin to 'blackboard.'"
+  },
+  {
+    "id": 99,
+    "sentence": "Since silverfish are insects, and fish swim in water, therefore silverfish must swim in water.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "nominal fallacy",
+      "false analogy"
+    ],
+    "details": "the argument commits the nominal fallacy by assuming the name 'silverfish' (a type of insect) literally implies it shares traits with actual fish, such as swimming. it also falsely analogizes between silverfish and fish solely based on the shared term 'fish' in their names, despite no relevant biological similarity."
+  },
+  {
+    "id": 100,
+    "sentence": "Since airplanes fly in the air, and air fresheners have 'air' in their name, therefore air fresheners must be able to fly.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "equivocation",
+      "false analogy",
+      "nominal fallacy"
+    ],
+    "details": "The argument commits **equivocation** by exploiting the ambiguous use of the term 'air' (referring to the atmosphere vs. a product name). It then draws a **false analogy**, assuming that because airplanes (which fly in the air) and air fresheners (which share the word 'air') share a superficial linguistic feature, they must share the functional feature of flight. Finally, it exhibits a **nominal fallacy** by treating the literal meaning of the name 'air freshener' as indicative of its capabilities, akin to taking a metaphor literally."
+  },
+  {
+    "id": 101,
+    "sentence": "Since we always find wet streets after rain, therefore wet streets cause rain.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument incorrectly reverses the cause-effect relationship between rain and wet streets. Rain causes streets to become wet, not the other way around. This is a reversal of causal direction (wrong direction). It also assumes causation solely based on correlation (false cause), as the temporal sequence (rain precedes wet streets) is misattributed as a causal relationship in the inverse order."
+  },
+  {
+    "id": 102,
+    "sentence": "Since the thermometer rises when we have a fever, therefore the thermometer rising causes fever.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument incorrectly reverses cause and effect. A fever causes the body's temperature to rise, which is measured by the thermometer. The thermometer's rise is an effect, not the cause, of the fever. This reversal of causality fits 'wrong direction.' It also conflates correlation (thermometer rising and fever occurring together) with causation, aligning with 'false cause.'"
+  },
+  {
+    "id": 103,
+    "sentence": "Since steam comes out when water boils, therefore steam causes water to boil.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The statement reverses the causal relationship between steam and boiling. In reality, boiling (caused by heat) produces steam as an effect, not the other way around. This incorrectly attributes causation to an effect (steam) rather than the actual cause (heat input), making it a 'wrong direction' fallacy. It also conflates temporal sequence (steam appearing during boiling) with causation, aligning with 'false cause'."
+  },
+  {
+    "id": 104,
+    "sentence": "Since smoke appears with fire, therefore smoke causes fire.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The statement incorrectly reverses the cause-effect relationship between fire and smoke (fire causes smoke, not the other way around), constituting the 'wrong direction' fallacy. It also assumes causation from mere correlation (smoke and fire occur together), aligning with the 'false cause' fallacy."
+  },
+  {
+    "id": 105,
+    "sentence": "Since watches tick as time passes, therefore watches ticking causes time to pass.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument reverses the actual causal relationship: watches tick *because* time passes (to measure it), not the other way around. This is a reversal of cause and effect (wrong direction). It also conflates correlation (watches ticking and time passing occur together) with causation (false cause)."
+  },
+  {
+    "id": 106,
+    "sentence": "Since werewolves transform during a full moon, therefore werewolf transformation causes a full moon.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong_direction",
+      "false_cause"
+    ],
+    "details": "The argument incorrectly reverses the causal relationship between the full moon and werewolf transformations. The full moon is the cause of the transformation (in folklore), but the conclusion falsely claims the transformation causes the full moon. This is a reversal of cause and effect (wrong direction). It also assumes causation from correlation alone (false cause), as there is no logical or empirical basis for this inverted causal claim."
+  },
+  {
+    "id": 107,
+    "sentence": "Since a red sky appears at sunset, therefore a red sky causes sunset.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument incorrectly reverses the causal relationship between a red sky and sunset. A red sky is an effect of atmospheric conditions during sunset (caused by sunlight scattering), not the cause of sunset itself. This fallacy misattributes the cause (Earth's rotation creating sunset) as the effect and vice versa."
+  },
+  {
+    "id": 108,
+    "sentence": "Since thunder follows lightning, therefore thunder causes lightning.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The sentence reverses the cause-effect relationship between lightning and thunder. Lightning causes thunder (via rapid air expansion), but the argument incorrectly claims thunder causes lightning because it follows it. This is a classic reversal of cause and effect (wrong direction) and assumes causation from mere temporal sequence (false cause)."
+  },
+  {
+    "id": 109,
+    "sentence": "Since roosters crow at sunrise, therefore rooster crowing causes sunrise.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument reverses the causal relationship between rooster crowing and sunrise. Roosters crow *in response to* sunrise (due to environmental cues like light), not the other way around. This confuses correlation (roosters crowing and sunrise occurring sequentially) with causation, misattributing the effect (sunrise) to the cause (crow). The fallacy is primarily a reversal of cause and effect ('wrong direction'), compounded by assuming causation from mere temporal succession ('false cause')."
+  },
+  {
+    "id": 110,
+    "sentence": "Since wind moves windmills, therefore windmills turning causes wind.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong_direction",
+      "false_cause"
+    ],
+    "details": "The argument incorrectly reverses the cause-effect relationship. Wind causes windmills to turn, not the other way around. This is a direct reversal of causality (wrong direction). It also assumes a false causal link between the windmills' motion and the existence of wind (false cause)."
+  },
+  {
+    "id": 111,
+    "sentence": "Since we sweat when it's hot, therefore sweating causes heat.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument incorrectly reverses the causal relationship between sweating and heat. The correct causal direction is that heat (cause) triggers sweating (effect), not the other way around. This reversal of cause and effect aligns with the 'wrong direction' fallacy. It also misattributes causation to a mere correlation (heat and sweating occur sequentially), fitting 'false cause'."
+  },
+  {
+    "id": 112,
+    "sentence": "Since pepper makes us sneeze, therefore sneezing causes pepper.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument incorrectly reverses the causal relationship: pepper (cause) induces sneezing (effect), but the conclusion asserts that sneezing (effect) causes pepper (cause). This reversal of cause and effect aligns with the 'wrong direction' fallacy. It also misattributes causation where only a unidirectional correlation exists, reflecting a 'false cause' error."
+  },
+  {
+    "id": 113,
+    "sentence": "Since the barometer falls before storms, therefore a falling barometer causes storms.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument assumes causation (falling barometer causes storms) solely based on temporal sequence (barometer falls before storms). This ignores the actual causal relationship: both the falling barometer and storms are effects of a common cause (changes in atmospheric pressure). While 'false cause' directly addresses the error of conflating correlation with causation, 'wrong direction' is less applicable here, as the barometer is not a reversed cause/effect of storms but a correlated indicator."
+  },
+  {
+    "id": 114,
+    "sentence": "Since old age is associated with memory loss, therefore memory loss causes old age.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong_direction",
+      "false_cause"
+    ],
+    "details": "The argument incorrectly reverses the causal relationship between old age and memory loss. While old age is a known contributor to memory loss, the sentence erroneously claims that memory loss causes old age. This is a reversal of cause and effect (wrong direction) and conflates correlation with causation (false cause)."
+  },
+  {
+    "id": 115,
+    "sentence": "Since shadows appear in light, therefore shadows cause light.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong_direction",
+      "false_cause"
+    ],
+    "details": "The argument incorrectly reverses cause and effect. Shadows are caused by the presence of light being blocked by an object, not the other way around. This reversal aligns with the 'wrong direction' fallacy. It also implies a false causal relationship (shadows causing light), fitting 'false cause' (assuming correlation implies causation)."
+  },
+  {
+    "id": 116,
+    "sentence": "Since waves appear when it's windy, therefore waves cause wind.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument incorrectly reverses the causal relationship: wind causes waves, not the other way around. This is a reversal of cause and effect (wrong direction). It also assumes causation from mere correlation (false cause), as the sequential occurrence of wind and waves does not imply the stated causal link."
+  },
+  {
+    "id": 117,
+    "sentence": "Since compass needles point north due to magnetic fields, therefore the compass pointing north causes magnetic fields.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong_direction"
+    ],
+    "details": "The argument reverses the cause and effect. Magnetic fields cause compass needles to point north, but the conclusion incorrectly claims that the compass pointing north causes magnetic fields. This swaps the true causal relationship."
+  },
+  {
+    "id": 118,
+    "sentence": "Since high tide occurs with certain moon positions, therefore high tide causes the moon's position.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The sentence reverses the scientifically established cause-effect relationship between the moon's position and high tides. The moon's gravitational pull (related to its position) causes tides, not the other way around. This is a direct inversion of causality (wrong direction) and conflates correlation with causation (false cause)."
+  },
+  {
+    "id": 119,
+    "sentence": "Since bacteria make food spoil, therefore food spoiling causes bacteria.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument incorrectly reverses the cause-effect relationship. The premise states that bacteria cause food spoilage, but the conclusion claims spoilage causes bacteria. This is a reversal of cause and effect (wrong direction) and falsely attributes causation based on a sequential relationship (false cause)."
+  },
+  {
+    "id": 120,
+    "sentence": "Since footprints appear when people walk, therefore footprints cause people to walk.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument reverses the causal relationship: footprints are the **effect** of walking, not the **cause**. This directly matches the 'wrong direction' fallacy (reversing cause and effect). It also aligns with 'false cause' (assuming correlation implies causation), as it incorrectly assigns causation to a sequential but non-causal relationship."
+  },
+  {
+    "id": 121,
+    "sentence": "Since brakes stop a car, therefore a car made entirely of brakes would be the safest.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy"
+    ],
+    "details": "The argument commits a fallacy of composition by incorrectly assuming that a property of a part (brakes stopping a car) applies to the whole (a car made entirely of brakes). This is irrational, as a car made solely of brakes would lack essential components (e.g., engine, structure) required to function as a car, let alone ensure safety. The false analogy arises from equating the function of brakes within a system to the system itself being composed of brakes."
+  },
+  {
+    "id": 122,
+    "sentence": "Since the CPU processes information in a computer, therefore a computer made entirely of CPUs would be the smartest.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false premise",
+      "false analogy"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that because individual CPUs process information, a whole system composed solely of CPUs would inherently maximize 'smartness.' This ignores systemic dependencies (e.g., memory, storage, coordination) required for computational intelligence. It also subtly relies on a false premise (reducing 'smartness' to CPU quantity) and a weak analogy (treating CPU aggregation as equivalent to holistic intelligence)."
+  },
+  {
+    "id": 123,
+    "sentence": "Since wheels enable movement in a bicycle, therefore a bicycle made entirely of wheels would be the fastest.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that a bicycle made entirely of wheels (a whole) would inherit the properties of its individual parts (wheels enabling movement), ignoring that removing other components (frame, pedals, etc.) would render it non-functional. The false analogy arises in equating the function of wheels in a standard bicycle to a hypothetical all-wheel structure, which lacks the necessary mechanical relationships for movement."
+  },
+  {
+    "id": 124,
+    "sentence": "Since airbags protect in crashes, therefore a car made entirely of airbags would be indestructible.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that because individual airbags (parts) protect passengers in crashes, a car entirely composed of airbags (the whole) would inherit this property and become 'indestructible.' This ignores structural and material differences (e.g., airbags are designed for impact absorption, not as load-bearing components). The false analogy arises by equating the protective function of airbags with the structural integrity required for an entire vehicle."
+  },
+  {
+    "id": 125,
+    "sentence": "Since the foundation stabilizes a building, therefore a building made entirely of foundation would never collapse.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that because a foundation (a part of a building) provides stability, a structure made entirely of foundation material (the whole) would inherently possess maximal stability. This ignores that a 'building' functionally requires more than just foundational elements (e.g., walls, roofing, etc.), and the properties of a part do not necessarily scale to the whole. The false analogy is secondary, as it improperly equates the role of a foundational component to the entire system's behavior."
+  },
+  {
+    "id": 126,
+    "sentence": "Since the heart pumps blood, therefore a body made entirely of heart tissue would circulate blood most efficiently.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false premise"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that because heart tissue (a part of the heart) pumps blood, an entire body made of heart tissue (the whole) would function similarly. This ignores the heart's structural complexity (e.g., chambers, valves) necessary for efficient circulation. It also relies on a false premise, as heart tissue alone, without the heart’s organized structure, cannot replicate systemic blood circulation."
+  },
+  {
+    "id": 127,
+    "sentence": "Since fire alarms detect fires, therefore a building made entirely of fire alarms would never burn down.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false premise"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that a property of individual fire alarms (detecting fires) applies to the entire building made of them, as if the collective presence of alarms inherently prevents fires. This ignores that detection does not equate to fire prevention or structural fire resistance. Additionally, it implicitly relies on a false premise that fire alarms physically inhibit fires, which they do not."
+  },
+  {
+    "id": 128,
+    "sentence": "Since a diamond is the hardest part of a ring, therefore a ring made entirely of diamond would be unbreakable.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false premise"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that because diamonds (parts of a ring) are hard, a ring made entirely of diamonds (the whole) must inherit unbreakability. Hardness (resistance to scratching) does not equate to unbreakability (resistance to shattering), and the structure of the whole (e.g., joints, brittleness) may introduce vulnerabilities. Additionally, the premise falsely equates 'hardness' with 'unbreakability,' making it a false premise."
+  },
+  {
+    "id": 129,
+    "sentence": "Since a helmet protects a cyclist's head, therefore a bicycle made entirely of helmet material would be the safest.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy",
+      "accident fallacy"
+    ],
+    "details": "The argument commits a fallacy of composition by assuming that because a material is effective for a part (helmet protecting the head), it would be equally effective for the whole (entire bicycle). Helmets are designed to absorb impact and be lightweight, while bicycles require structural rigidity and durability—properties not necessarily provided by helmet material. The false analogy arises from treating the material's function in one context (head protection) as transferable to a vastly different context (structural framework). The accident fallacy may also apply if the general rule 'helmet material is safe' is mechanically extended to an unrelated application without considering context."
+  },
+  {
+    "id": 130,
+    "sentence": "Since antibiotics kill bacteria, therefore a body composed entirely of antibiotics would never get sick.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false premise"
+    ],
+    "details": "The argument commits the fallacy of composition: it assumes that because individual antibiotics kill bacteria, a 'body' composed entirely of antibiotics would inherit this property and prevent sickness. This ignores systemic functionality (e.g., antibiotics alone cannot sustain life or form a functional biological system). The premise also subtly implies antibiotics are sufficient to prevent all sickness, a false premise since illnesses can stem from viruses, fungi, or non-infectious causes."
+  },
+  {
+    "id": 131,
+    "sentence": "Since the lens focuses light in a camera, therefore a camera made entirely of lenses would take perfect pictures.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition"
+    ],
+    "details": "The argument assumes that because a single lens (a component of a camera) focuses light, a camera made entirely of lenses (the whole system) would function perfectly. This erroneously attributes the properties of a part to the whole, ignoring the necessity of other components (e.g., sensors, housing) for capturing images. It mirrors the fallacy of composition (e.g., 'tyres are rubber, so the car is rubber')."
+  },
+  {
+    "id": 132,
+    "sentence": "Since the goalkeeper can use hands in soccer, therefore a team of only goalkeepers would have the best ball control.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false premise",
+      "false analogy"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that a team composed entirely of goalkeepers (who individually can use their hands in specific contexts) would collectively excel in ball control. This ignores the rules of soccer: only the designated goalkeeper can use hands within their penalty area, and other players (even if trained as goalkeepers) cannot. Thus, a team of all goalkeepers would not universally benefit from hand-use. Additionally, it assumes goalkeepers inherently have superior overall ball-control skills (a false premise) and falsely analogizes individual goalkeeping traits to team-wide advantages."
+  },
+  {
+    "id": 133,
+    "sentence": "Since the lock secures a door, therefore a door made entirely of locks would be impenetrable.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition"
+    ],
+    "details": "The argument erroneously assumes that because individual locks (parts) secure a door, a door entirely composed of locks (whole) would inherit the same property of impenetrability. However, the functionality of a lock depends on its structural role within a door, not as the door itself. A door made solely of locks would lack structural integrity, rendering the conclusion invalid."
+  },
+  {
+    "id": 134,
+    "sentence": "Since batteries provide power, therefore a device made entirely of batteries would run forever.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false premise"
+    ],
+    "details": "The argument commits a fallacy of composition: it incorrectly assumes that because individual batteries provide power, a device composed entirely of batteries (the whole) would inherit an exaggerated version of this property (infinite runtime). This ignores that batteries are energy sources with finite capacity, and their combined use does not eliminate energy depletion. Additionally, it relies on a false premise that 'providing power' inherently implies perpetual operation."
+  },
+  {
+    "id": 135,
+    "sentence": "Since shock absorbers cushion impact, therefore a vehicle made entirely of shock absorbers would provide the smoothest ride.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that because shock absorbers (parts) cushion impact, a vehicle made entirely of shock absorbers (whole) would inherently exhibit the same property to the greatest extent. This ignores structural and functional differences between a component and a system. The false analogy element arises from treating the property of a part as transferable to the whole in a mechanically literal way, akin to assuming 'tyres are rubber, therefore the whole car is rubber.'"
+  },
+  {
+    "id": 136,
+    "sentence": "Since lightbulbs produce light, therefore a house made entirely of lightbulbs would be the brightest.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "accident fallacy"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that a property of individual lightbulbs (producing light) automatically applies to a whole structure made of them. This ignores how the arrangement, functionality, and interaction of parts (e.g., lightbulbs as building materials vs. functioning bulbs) affect the whole. The accident fallacy may also apply if the general rule 'lightbulbs produce light' is mechanically applied without considering contextual constraints (e.g., structural feasibility, non-functional use of bulbs)."
+  },
+  {
+    "id": 137,
+    "sentence": "Since corks float in water, therefore a boat made entirely of corks would be unsinkable.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy",
+      "false premise"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that because individual corks float, a boat made entirely of corks (the whole) would inherit this property absolutely. This ignores structural, design, and environmental factors (e.g., weight distribution, water ingress) that could cause the boat to sink despite the material's buoyancy. The false analogy and false premise rankings reflect weaker overlaps, as the argument superficially compares parts to a whole (analogy) and assumes an incomplete premise (floating material guarantees unsinkability)."
+  },
+  {
+    "id": 138,
+    "sentence": "Since vitamins are healthy, therefore a diet consisting only of vitamins would be the most nutritious.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "accident fallacy"
+    ],
+    "details": "The argument commits a fallacy of composition by assuming that because individual vitamins are healthy, a diet composed exclusively of them (the whole) would be optimal. It ignores the necessity of other nutrients (e.g., proteins, fats) for overall health. It also reflects the accident fallacy by rigidly applying the general rule 'vitamins are healthy' to an extreme and unqualified scenario, disregarding contextual limitations (e.g., overdosing risks, nutritional balance)."
+  },
+  {
+    "id": 139,
+    "sentence": "Since steel beams support weight, therefore a bridge made entirely of steel beams would support infinite weight.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "improper distribution or addition"
+    ],
+    "details": "The argument commits a fallacy of composition by incorrectly assuming that because individual steel beams support weight, an entire bridge composed of steel beams would support infinite weight. This ignores structural limits, load distribution, and material constraints. It also improperly distributes or adds capacities by assuming infinite scalability of finite properties (e.g., combining beams multiplicatively rather than considering practical bounds)."
+  },
+  {
+    "id": 140,
+    "sentence": "Since the spine allows flexibility, therefore a body made entirely of spine would be the most flexible.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy"
+    ],
+    "details": "The argument commits the fallacy of composition by incorrectly assuming that a property of a part (the spine's flexibility) inherently applies to the whole (a body made entirely of spine). A spine's flexibility depends on its interaction with other body structures (e.g., muscles, joints); scaling it to a full 'body' ignores systemic dependencies. The false analogy is secondary, as it loosely compares a functional part (spine) to a hypothetical whole (spine-only body) without valid similarity in purpose or structure."
+  },
+  {
+    "id": 141,
+    "sentence": "Since free markets maximize efficiency, and maximizing efficiency means free markets are the most efficient, and free markets are the most efficient when they maximize efficiency, therefore free markets are the most efficient.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise"
+    ],
+    "details": "The argument is circular and tautological. It assumes the conclusion ('free markets are the most efficient') in its premises by defining 'maximizing efficiency' as equivalent to 'free markets being the most efficient,' thereby restating the same claim without independent justification. This constitutes 'begging the question.' Additionally, the premise 'free markets maximize efficiency' is presented as self-evident without empirical or logical support, making it a potential 'false premise.'"
+  },
+  {
+    "id": 142,
+    "sentence": "Since evolution is supported by scientific consensus, and scientific consensus means evolution is scientific, and evolution is scientific when scientific consensus supports it, therefore evolution is scientific.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question"
+    ],
+    "details": "The argument assumes the conclusion (evolution is scientific) as a premise by circularly defining 'scientific consensus' and 'evolution is scientific' as mutually dependent. It does not provide independent evidence for why scientific consensus validates evolution, instead restating the same claim in different terms (e.g., 'scientific consensus means evolution is scientific' and vice versa). This creates a tautological loop, a hallmark of begging the question."
+  },
+  {
+    "id": 143,
+    "sentence": "Since people prefer democracy, and people's preference means democracy is the best, and democracy is the best when people prefer it, therefore democracy is the best.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise"
+    ],
+    "details": "The argument is circular: it assumes that 'people's preference means democracy is the best' (the premise) and concludes 'democracy is the best' (the same claim). This structure relies on restating the conclusion as a premise (begging the question). Additionally, the premise equating preference with objective superiority ('best') is unsubstantiated, making it a false premise if the connection between preference and inherent value is not proven."
+  },
+  {
+    "id": 144,
+    "sentence": "Since people are healed by alternative medicine, and healing means alternative medicine works, and alternative medicine works when it heals people, therefore alternative medicine works.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise"
+    ],
+    "details": "The argument is circular and assumes the conclusion in its premises. It defines 'healing' as equivalent to 'alternative medicine working' and vice versa, creating a tautology. The premise 'healing means alternative medicine works' is asserted without independent evidence, making it a case of begging the question. Additionally, if the premise that 'people are healed by alternative medicine' is unverified (e.g., due to placebo effects, spontaneous recovery, or misattribution), it could involve a false premise."
+  },
+  {
+    "id": 145,
+    "sentence": "Since weather changes are natural variations, and natural variations mean climate change is not real, and climate change is not real when changes are natural variations, therefore climate change is not real.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false premise",
+      "equivocation",
+      "begging the question"
+    ],
+    "details": "The argument commits a **false premise** fallacy by incorrectly assuming that natural weather variations inherently negate the existence of climate change (a long-term phenomenon distinct from short-term weather patterns). It also involves **equivocation**, conflating 'weather' (short-term changes) with 'climate' (long-term trends) as interchangeable concepts. Additionally, the argument is circular (**begging the question**), as the premises redundantly restate the conclusion in different terms (e.g., 'natural variations mean climate change is not real' and 'climate change is not real when changes are natural variations')."
+  },
+  {
+    "id": 146,
+    "sentence": "Since good behaviors are God's commands, and God's commands mean morality comes from God, and morality comes from God when God commands good behaviors, therefore morality comes from God.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise"
+    ],
+    "details": "The argument is circular: it assumes the conclusion ('morality comes from God') as a premise by defining 'good behaviors' and 'God's commands' as interchangeable. The premise 'God's commands mean morality comes from God' restates the conclusion without independent justification, making it tautological. Additionally, the premise 'good behaviors are God's commands' is presented as foundational but lacks empirical or logical support, risking a false premise if contested."
+  },
+  {
+    "id": 147,
+    "sentence": "Since people predict events psychically, and psychic prediction means psychic powers exist, and psychic powers exist when people predict events psychically, therefore psychic powers exist.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise"
+    ],
+    "details": "The argument is circular and assumes the conclusion in its premises. The first premise ('psychic prediction means psychic powers exist') and the second premise ('psychic powers exist when people predict events psychically') mutually define each other without independent justification. This creates a tautological structure where the conclusion ('psychic powers exist') is presented as evidence for itself. Additionally, the premise 'people predict events psychically' is asserted without empirical proof, constituting a false premise."
+  },
+  {
+    "id": 148,
+    "sentence": "Since choices are determined by prior causes, and prior determination means free will does not exist, and free will does not exist when choices are determined, therefore free will does not exist.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise"
+    ],
+    "details": "The argument assumes its conclusion ('free will does not exist') within its premises without independent justification. Specifically, it defines 'prior determination' as inherently negating free will (e.g., 'prior determination means free will does not exist'), which is equivalent to the conclusion itself. This circular reasoning constitutes 'begging the question.' Additionally, the premise that determinism necessarily excludes free will is contentious (e.g., compatibilist philosophies argue they can coexist), making it a potential 'false premise' if presented as universally accepted."
+  },
+  {
+    "id": 149,
+    "sentence": "Since people get sick after vaccination, and post-vaccination sickness means vaccines are dangerous, and vaccines are dangerous when they make people sick, therefore vaccines are dangerous.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "begging the question"
+    ],
+    "details": "The argument commits a 'false cause' fallacy by assuming that temporal proximity (sickness after vaccination) implies causation without evidence. It also 'begs the question' by circularly defining vaccines as dangerous because they cause sickness, then using that premise to conclude vaccines are dangerous."
+  },
+  {
+    "id": 150,
+    "sentence": "Since people have seen ghosts, and seeing ghosts means ghosts exist, and ghosts exist when people see them, therefore ghosts exist.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false cause",
+      "false premise"
+    ],
+    "details": "The argument commits 'begging the question' by circularly assuming ghosts exist because people have seen them, and equating 'seeing ghosts' with 'ghosts existing' as both premise and conclusion. It also involves 'false cause' by conflating the correlation (seeing ghosts) with causation (ghosts existing) without evidence. The premise 'seeing ghosts means ghosts exist' is a 'false premise' as it presupposes the conclusion (ghosts exist) without independent verification."
+  },
+  {
+    "id": 151,
+    "sentence": "Since traits match astrological signs, and matching signs means astrology predicts personality, and astrology predicts personality when traits match signs, therefore astrology predicts personality.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false cause"
+    ],
+    "details": "The argument assumes its conclusion ('astrology predicts personality') as a premise, creating a circular structure where no independent evidence is provided (begging the question). It also implies causation between traits and astrological signs without addressing alternative explanations (e.g., confirmation bias, cultural influence), conflating correlation with causation (false cause)."
+  },
+  {
+    "id": 152,
+    "sentence": "Since government denial proves a cover-up, and cover-up proof means the government is hiding aliens, and the government is hiding aliens when denial proves a cover-up, therefore the government is hiding aliens.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise",
+      "false cause"
+    ],
+    "details": "The argument is circular (begging the question): the conclusion ('the government is hiding aliens') is restated as a premise ('cover-up proof means the government is hiding aliens'). It also relies on a false premise that a cover-up inherently implies alien concealment, which is asserted without evidence. Additionally, it assumes causation (denial → aliens) without justification (false cause)."
+  },
+  {
+    "id": 153,
+    "sentence": "Since mental phenomena are not physical, and non-physical phenomena mean the mind is separate from the brain, and the mind is separate from the brain when phenomena are not physical, therefore the mind is separate from the brain.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise"
+    ],
+    "details": "The argument assumes its conclusion in its premises, creating a circular structure (e.g., defining non-physical phenomena as inherently linked to mind-brain separation and vice versa). Additionally, the premise 'mental phenomena are not physical' is asserted without evidence, potentially constituting a false premise if this claim is unsubstantiated. The reasoning redundantly restates the conclusion as part of its foundational assumptions."
+  },
+  {
+    "id": 154,
+    "sentence": "Since real art requires traditional skill, and skill requirements mean modern art is not real art, and modern art is not real art when real art requires traditional skill, therefore modern art is not real art.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise",
+      "false dilemma"
+    ],
+    "details": "The argument commits **begging the question** (circular reasoning) by assuming the conclusion ('modern art is not real art') in its premises ('skill requirements mean modern art is not real art'). It also relies on a **false premise** (subjective assertion that 'real art requires traditional skill' is an objective standard) and presents a **false dilemma** by reducing the definition of 'real art' to a single criterion (traditional skill), ignoring other possible criteria for evaluating art."
+  },
+  {
+    "id": 155,
+    "sentence": "Since all socialist countries failed, and failure means socialism does not work, and socialism does not work when all socialist countries fail, therefore socialism does not work.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise",
+      "false cause",
+      "fallacy of composition"
+    ],
+    "details": "The argument commits multiple fallacies. First, it 'begs the question' by circular reasoning: the premise ('failure means socialism does not work') restates the conclusion ('socialism does not work') in different terms. Second, it assumes a 'false premise' (that all socialist countries categorically 'failed'), which is a subjective or contestable assertion. Third, it implies a 'false cause' by equating the sequential occurrence of socialist countries and their alleged failures with causation, ignoring other potential factors (e.g., external pressures, specific policies). Finally, it risks a 'fallacy of composition' by treating the failure of individual countries as proof of socialism's universal failure, assuming the whole (the ideology) inherits the flaws of its parts (specific implementations)."
+  },
+  {
+    "id": 156,
+    "sentence": "Since unexplainable events are miraculous, and miraculous events mean miracles happen, and miracles happen when events are miraculous, therefore miracles happen.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise"
+    ],
+    "details": "The argument is circular and tautological. It assumes the conclusion ('miracles happen') in its premises by defining 'unexplainable events' as 'miraculous' and equating 'miraculous events' directly to 'miracles happening' without independent justification. The premises ('miraculous events mean miracles happen' and vice versa) restate the conclusion rather than providing evidence, committing begging the question. The premise 'unexplainable events are miraculous' also acts as a contested foundational assumption (false premise), as it conflates unexplained phenomena with divine intervention without argument."
+  },
+  {
+    "id": 157,
+    "sentence": "Since alternative education methods are inferior, and inferiority means traditional education is the best, and traditional education is the best when alternatives are inferior, therefore traditional education is the best.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise",
+      "false dilemma"
+    ],
+    "details": "The argument is circular: it assumes the conclusion ('traditional education is the best') as a premise by defining 'inferiority' of alternatives as inherently proving traditional education's superiority. This is a textbook case of begging the question. Additionally, the premise that 'inferiority of alternatives directly equates to traditional education being the best' is a false premise, as it lacks empirical or logical justification (e.g., there could be multiple viable methods, or none). Finally, it implies a false dilemma by reducing the discussion to only two options (traditional vs. inferior alternatives), ignoring potential middle grounds or hybrid approaches."
+  },
+  {
+    "id": 158,
+    "sentence": "Since men and women naturally prefer different things, and natural preferences mean traditional gender roles are natural, and traditional gender roles are natural when preferences are natural, therefore traditional gender roles are natural.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise",
+      "fallacy of composition"
+    ],
+    "details": "The argument commits *begging the question*: it circularly assumes that 'natural preferences' inherently justify 'traditional gender roles' as natural, without independent evidence. The premise 'natural preferences mean traditional gender roles are natural' is a restatement of the conclusion, not a justification. It also relies on a *false premise* (e.g., assuming preferences are purely 'natural' rather than socially shaped, and that naturalness inherently justifies societal roles). Finally, it risks a *fallacy of composition* by implying individual preferences directly translate to collective roles without addressing systemic or emergent complexities."
+  },
+  {
+    "id": 159,
+    "sentence": "Since society adapts to technological innovation, and adaptation means technology drives social change, and technology drives social change when society adapts to it, therefore technology drives social change.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise"
+    ],
+    "details": "The argument is circular. It defines 'adaptation' as 'technology drives social change' and then uses this definition to conclude the same claim ('technology drives social change'). This assumes the conclusion is true in the premises without independent evidence, a textbook case of 'begging the question'. Additionally, the premise 'adaptation means technology drives social change' is asserted without justification, making it a potential 'false premise' (if the equivalence between adaptation and causation is unfounded)."
+  },
+  {
+    "id": 160,
+    "sentence": "Since attempts at equality failed, and failure means economic inequality is inevitable, and economic inequality is inevitable when attempts at equality fail, therefore economic inequality is inevitable.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "begging the question",
+      "false premise"
+    ],
+    "details": "The argument is circular: it assumes economic inequality's inevitability by defining failure of equality attempts as directly causing it, without independent justification. The premise 'failure means economic inequality is inevitable' restates the conclusion, creating a tautology. Additionally, the premise may be a 'false premise' if the link between failed attempts and inevitability is unproven."
+  },
+  {
+    "id": 161,
+    "sentence": "Since flu cases increase in winter, and hot chocolate consumption also rises, therefore flu causes people to drink hot chocolate.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument assumes causation (flu causes hot chocolate consumption) based solely on a temporal correlation between flu cases and hot chocolate consumption in winter. This is a 'false cause' fallacy because it conflates correlation with causation. Additionally, it could imply a 'wrong direction' error if winter (a common underlying factor for both phenomena) is the actual cause, but the conclusion reverses the implied causal relationship."
+  },
+  {
+    "id": 162,
+    "sentence": "Since crime rates increase at night, and street light usage also rises, therefore crime makes people turn on street lights.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "wrong direction",
+      "false cause"
+    ],
+    "details": "The argument incorrectly assumes that the correlation between crime rates and street light usage at night implies causation, specifically reversing the causal relationship. Street lights are likely turned on due to nighttime (a common cause of both phenomena), not because of crime. This reversal of cause and effect aligns with the 'wrong direction' fallacy. Additionally, inferring causation from mere correlation (without evidence) fits the broader 'false cause' fallacy."
+  },
+  {
+    "id": 163,
+    "sentence": "Since heating bills increase in winter, and hot cocoa consumption also rises, therefore high heating bills make people drink hot cocoa.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The sentence commits a false cause fallacy by assuming a causal relationship between heating bills and hot cocoa consumption solely based on their temporal correlation in winter. It ignores the possibility of a common underlying cause (e.g., colder weather driving both increased heating use and hot cocoa consumption). The 'wrong direction' fallacy is less prominent but could apply if the implied causal direction (bills → cocoa) were inverted (e.g., cocoa consumption causing higher bills)."
+  },
+  {
+    "id": 164,
+    "sentence": "Since car wiper usage increases during the rainy season, and umbrella sales also rise, therefore using car wipers makes people buy umbrellas.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false_cause",
+      "wrong_direction"
+    ],
+    "details": "The argument assumes a causal relationship between car wiper usage and umbrella sales solely based on their temporal correlation during the rainy season. This is a false cause fallacy because both phenomena are likely independently caused by a third factor (rainy weather), not by one causing the other. The 'wrong direction' fallacy is also loosely applicable if one mistakenly reverses the implied causal chain (e.g., suggesting umbrellas cause wiper usage), though the primary error is false cause."
+  },
+  {
+    "id": 165,
+    "sentence": "Since air conditioner usage increases in summer, and sunburn incidents also rise, therefore using air conditioners causes sunburn.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument incorrectly assumes causation (air conditioners cause sunburn) based solely on a temporal correlation between two events (both increasing in summer). This is a 'false cause' fallacy. Additionally, it ignores the actual causal relationship: summer heat causes both increased air conditioner usage and sunburn (due to more sun exposure), making 'wrong direction' a secondary fallacy if the real cause-effect is misattributed."
+  },
+  {
+    "id": 166,
+    "sentence": "Since coat sales increase in winter, and heating bills also rise, therefore buying coats makes heating bills go up.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The sentence assumes a causal relationship between coat sales and increased heating bills solely because they occur sequentially (both rise in winter). This is a 'false cause' fallacy, as it conflates correlation with causation. Additionally, it might imply a reversed causal direction (e.g., colder weather causes both increased coat sales and heating bills, making the stated cause-effect relationship 'wrong direction'). However, the primary error is the unjustified causal claim."
+  },
+  {
+    "id": 167,
+    "sentence": "Since air conditioner usage increases in summer, and ice cream sales also rise, therefore using air conditioners makes people buy ice cream.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The sentence commits the **false cause** fallacy by assuming a causal relationship between air conditioner usage and ice cream sales solely because they both correlate with summer. It ignores the third variable (summer heat) that likely drives both phenomena independently. The 'wrong direction' fallacy is also possible if the argument implies a reversed causal link (e.g., ice cream sales causing AC usage), though this is secondary."
+  },
+  {
+    "id": 168,
+    "sentence": "Since drowning deaths increase in summer, and ice cream sales also rise, therefore drowning causes more ice cream sales.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false_cause"
+    ],
+    "details": "the sentence incorrectly infers causation (drowning causes increased ice cream sales) from a mere correlation between two variables (both rising in summer). this is a classic example of confusing correlation with causation, where a third factor (e.g., hot weather) likely influences both phenomena independently. the argument assumes a causal link without evidence, fitting the 'false_cause' fallacy."
+  },
+  {
+    "id": 169,
+    "sentence": "Since ice cream sales increase in summer, and ice cream truck presence also rises, therefore eating ice cream makes more ice cream trucks appear.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument incorrectly assumes that the correlation between increased ice cream sales and increased ice cream truck presence implies causation (eating ice cream causes more trucks). This is a 'false cause' fallacy because both phenomena are likely effects of a common cause (summer heat), not causally linked to each other. It also indirectly reverses the logical direction (trucks appearing more likely drives sales, not vice versa), aligning with 'wrong direction'."
+  },
+  {
+    "id": 170,
+    "sentence": "Since hot chocolate consumption increases in winter, and tire chain sales also rise, therefore drinking hot chocolate makes people buy tire chains.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument assumes a causal relationship between hot chocolate consumption and tire chain sales solely because they both correlate with winter. This is a 'false cause' fallacy (confusing correlation with causation). While both phenomena share a common contextual cause (winter weather), the conclusion improperly assigns direct causation. The 'wrong direction' fallacy is less applicable here, as the error is not about reversing cause and effect but asserting an invalid causal link."
+  },
+  {
+    "id": 171,
+    "sentence": "Since ice cream sales increase in summer, and sunburn incidents also rise, therefore eating ice cream causes sunburn.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument assumes a causal relationship between ice cream consumption and sunburn solely because both correlate with summer. This is a 'false cause' fallacy (confusing correlation with causation). Additionally, the actual cause (sun exposure) is misattributed, but this is secondary to the primary error of assuming causation from correlation. 'Wrong direction' (reversed cause-effect) is less applicable here, as the conclusion misidentifies, rather than reverses, the causal factor."
+  },
+  {
+    "id": 172,
+    "sentence": "Since birth rates increase in growing neighborhoods, and diaper sales also rise, therefore having more babies causes diaper sales.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause"
+    ],
+    "details": "The argument assumes that the observed correlation between increased birth rates and diaper sales in growing neighborhoods implies causation. However, both factors may be independently caused by a third variable—the growth of the neighborhood itself (more residents lead to more families and increased retail activity). This is a classic case of confusing correlation with causation (false cause fallacy)."
+  },
+  {
+    "id": 173,
+    "sentence": "Since coat sales increase in winter, and soup consumption also rises, therefore buying coats makes people eat more soup.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument incorrectly assumes that the correlation between coat sales and soup consumption in winter implies causation (false cause). It does not account for a third variable (e.g., cold weather) causing both phenomena. 'Wrong direction' is less applicable here, as the argument does not explicitly reverse cause and effect but misattributes causation entirely."
+  },
+  {
+    "id": 174,
+    "sentence": "Since ice cream sales increase in summer, and sunglasses sales also rise, therefore eating ice cream makes people buy sunglasses.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument incorrectly assumes a causal relationship between ice cream sales and sunglasses sales solely because they correlate temporally (both increase in summer). This is a 'false cause' fallacy. It also indirectly implies a reversed or misdirected causal link (summer heat is the common cause of both phenomena, not ice cream consumption). However, 'wrong direction' is secondary here, as the primary error is misattributing causation to correlation."
+  },
+  {
+    "id": 175,
+    "sentence": "Since coat sales increase in winter, and hot chocolate consumption also rises, therefore buying coats makes people drink hot chocolate.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument assumes a causal relationship between coat sales and hot chocolate consumption solely because they both correlate with winter. This is a false cause fallacy (correlation ≠ causation). Both phenomena are likely effects of a shared cause (cold weather), not causes of one another. The 'wrong direction' fallacy also applies if the argument implies coats cause hot chocolate consumption rather than recognizing both are results of the seasonal context."
+  },
+  {
+    "id": 176,
+    "sentence": "Since drowning deaths increase in summer, and sunburn incidents also rise, therefore drowning makes people get sunburned.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "improper transposition"
+    ],
+    "details": "The argument incorrectly assumes a causal relationship between drowning deaths and sunburn incidents solely because both increase in summer (correlation ≠ causation). This is a 'false cause' fallacy. Additionally, it improperly infers 'drowning causes sunburn' from the coexistence of two effects (heat-related activities), resembling an 'improper transposition' of logical structure."
+  },
+  {
+    "id": 177,
+    "sentence": "Since air conditioner usage increases in summer, and drowning deaths also rise, therefore using air conditioners makes people drown.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "improper transposition"
+    ],
+    "details": "The argument incorrectly assumes a causal relationship between air conditioner usage and drowning deaths solely because both occur simultaneously in summer. This is a 'false cause' fallacy (correlation ≠ causation). Additionally, it improperly transposes the temporal sequence (summer activities like swimming, not AC use, likely explain drowning increases), though this is secondary to the primary false cause error."
+  },
+  {
+    "id": 178,
+    "sentence": "Since coat sales increase in winter, and flu cases also rise, therefore buying coats makes people catch the flu.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument commits a **false cause** fallacy by incorrectly assuming that the correlation between coat sales and flu cases implies causation. Both phenomena are seasonal effects of winter (cold weather increases coat purchases and facilitates flu transmission), but there is no direct causal link between buying coats and contracting the flu. The **wrong direction** fallacy is less central but marginally applicable, as the implied reversal (e.g., 'flu causes coat sales') is not explicitly argued, though the causal relationship is misattributed."
+  },
+  {
+    "id": 179,
+    "sentence": "Since air conditioner usage increases in summer, and ice cream truck presence also rises, therefore using air conditioners makes more ice cream trucks appear.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause"
+    ],
+    "details": "The argument assumes a causal relationship between air conditioner usage and ice cream truck presence solely because both occur simultaneously in summer. This confuses correlation with causation (false cause fallacy), as both phenomena are likely independently driven by a third factor (summer heat), not by a direct cause-effect link."
+  },
+  {
+    "id": 180,
+    "sentence": "Since coat sales increase in winter, and tire chain sales also rise, therefore buying coats makes people buy tire chains.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "wrong direction"
+    ],
+    "details": "The argument incorrectly assumes a causal relationship between coat sales and tire chain sales based solely on their temporal correlation (both increasing in winter). This exemplifies the 'false cause' fallacy, as it confuses correlation with causation. Additionally, it may misattribute the direction of causation ('wrong direction'), since both trends are likely caused by a third factor (winter weather conditions), not by one causing the other."
+  },
+  {
+    "id": 181,
+    "sentence": "If studying leads to good grades, then good grades must come from studying.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "inverse error"
+    ],
+    "details": "The argument improperly transposes the original conditional statement ('if A then B') into its converse ('if B then A'). While studying (A) may lead to good grades (B), concluding that good grades (B) *must* come from studying (A) ignores other possible causes (e.g., natural aptitude, cheating). This is a direct example of improper transposition. It also partially aligns with inverse error (denying the antecedent), though improper transposition is the primary fallacy here."
+  },
+  {
+    "id": 182,
+    "sentence": "If speeding causes accidents, then every accident must be caused by speeding.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "The statement improperly reverses the original conditional premise ('if speeding causes accidents') to conclude that 'every accident must be caused by speeding,' which commits the **improper transposition** fallacy (confusing 'if A then B' with 'if B then A'). It also assumes that speeding is the sole cause of all accidents, ignoring other potential factors (e.g., weather, mechanical failure), which reflects a **false cause** error by oversimplifying causation."
+  },
+  {
+    "id": 183,
+    "sentence": "If fire produces smoke, then all smoke must come from fire.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "the statement improperly transposes the conditional 'if A (fire) then B (smoke)' into 'if B (smoke) then A (fire)', assuming smoke's existence necessitates fire as its sole cause. this ignores other potential sources of smoke (e.g., chemical reactions, industrial processes). it also hints at a false cause fallacy by conflating correlation (fire and smoke) with universal causation (all smoke must derive from fire)."
+  },
+  {
+    "id": 184,
+    "sentence": "If rain leads to floods, then every flood must be caused by rain.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "The argument improperly reverses the original implication ('if rain, then flood') to assert that all floods are caused by rain. This is a direct example of improper transposition (assuming 'if A then B' implies 'if B then A'). Additionally, it assumes rain is the sole cause of floods, ignoring other potential causes (e.g., dam failures, snowmelt), which aligns with false cause (oversimplifying causation)."
+  },
+  {
+    "id": 185,
+    "sentence": "If a virus causes fever, then every fever must come from a virus.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause",
+      "accident fallacy"
+    ],
+    "details": "The statement improperly transposes the conditional 'if a virus causes fever' (A → B) into a biconditional 'every fever must come from a virus' (B → A), ignoring other causes of fever (e.g., bacterial infections, inflammation). This is a classic case of affirming the consequent (improper transposition). It also assumes a singular cause (false cause) and overgeneralizes a specific causal relationship (accident fallacy)."
+  },
+  {
+    "id": 186,
+    "sentence": "If dieting results in weight loss, then all weight loss must be from dieting.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "The argument improperly reverses the original conditional statement ('If A [dieting], then B [weight loss]') to conclude 'If B, then A,' which is a textbook example of improper transposition. It also assumes that dieting is the sole cause of weight loss (false cause), ignoring other potential factors like exercise, medical conditions, etc."
+  },
+  {
+    "id": 187,
+    "sentence": "If sunlight helps plants grow, then all plant growth must be from sunlight.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "fallacy of composition"
+    ],
+    "details": "The argument commits a false cause fallacy by oversimplifying the cause of plant growth. While sunlight is one contributing factor, the conclusion erroneously treats it as the sole cause, ignoring other essential factors (e.g., water, nutrients). It also loosely resembles the fallacy of composition by assuming that because sunlight aids individual instances of growth, it must universally account for all growth."
+  },
+  {
+    "id": 188,
+    "sentence": "If a late bus makes someone tardy, then all tardiness must be due to late buses.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "The argument improperly transposes the original conditional statement ('if a late bus causes tardiness') into its converse ('all tardiness is caused by late buses'), violating logical implication rules. It also assumes a universal causal relationship without evidence, conflating a possible cause (late buses) with the sole necessary cause, a form of false causation."
+  },
+  {
+    "id": 189,
+    "sentence": "If a broken pipe causes water damage, then all water damage must come from broken pipes.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause",
+      "fallacy of composition"
+    ],
+    "details": "The argument commits improper transposition by reversing the original implication ('if A, then B' becomes 'if B, then A'). It assumes that because broken pipes *can* cause water damage, they *must* be the *only* cause, ignoring other potential sources (e.g., floods, appliance leaks). This also overlaps with false cause (attributing all effects to a single unproven cause) and faintly echoes the fallacy of composition (erroneously extrapolating a part's property to the whole)."
+  },
+  {
+    "id": 190,
+    "sentence": "If a power outage creates darkness, then all darkness must be from power outages.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "The argument improperly transposes the conditional statement. It assumes 'if A (power outage) then B (darkness)' implies 'if B (darkness) then A (power outage),' which is a logical converse error. Additionally, it falsely attributes all instances of darkness to power outages, ignoring other causes (e.g., nighttime, broken bulbs), conflating correlation with causation."
+  },
+  {
+    "id": 191,
+    "sentence": "If stress causes headaches, then every headache must be caused by stress.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause",
+      "inverse error"
+    ],
+    "details": "The argument improperly transposes the original conditional statement ('stress causes headaches' implies 'if A then B') into a universal necessity ('every headache must be caused by stress,' implying 'if B then A'), which is logically invalid. It also assumes stress is the sole cause (a 'false cause' error by ignoring other potential causes like dehydration or illness) and subtly resembles the inverse error by conflating the existence of a cause with exclusivity."
+  },
+  {
+    "id": 192,
+    "sentence": "If air pollution leads to respiratory problems, then all respiratory problems must come from air pollution.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "The argument improperly transposes the conditional relationship. While air pollution may cause respiratory problems (if A then B), it does not logically follow that all respiratory problems are caused by air pollution (erroneously concluding B implies A). This reversal of the implication is a textbook example of improper transposition. Additionally, it assumes air pollution is the sole cause (a false cause fallacy), ignoring other factors like genetics, smoking, or allergies that contribute to respiratory issues."
+  },
+  {
+    "id": 193,
+    "sentence": "If coffee increases alertness, then all alertness must be from drinking coffee.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false cause",
+      "fallacy of composition"
+    ],
+    "details": "The sentence commits a logical error by incorrectly assuming that because coffee can increase alertness (a partial or contributing cause), it must be the exclusive cause of all alertness. This oversimplifies causation (false cause) and improperly generalizes a specific effect to encompass all instances (fallacy of composition). Other factors like sleep, exercise, or genetics are ignored."
+  },
+  {
+    "id": 194,
+    "sentence": "If studying leads to knowledge, then all knowledge must come from studying.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false premise",
+      "inverse error"
+    ],
+    "details": "The argument improperly transposes the original conditional statement 'if A (studying) then B (knowledge)' into 'if B then A' (all knowledge must come from studying), which is a formal fallacy. It also assumes studying is the *only* source of knowledge (a false premise) and resembles inverse error by conflating the original implication with its converse."
+  },
+  {
+    "id": 195,
+    "sentence": "If sun exposure causes sunburn, then all sunburn must come from sun exposure.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "the statement improperly transposes the conditional 'if A (sun exposure) then B (sunburn)' into 'if B (sunburn) then A (sun exposure)', implying sun exposure is the sole cause of all sunburn. this ignores other potential causes (e.g., UV lamps, radiation) and conflates correlation with exclusivity."
+  },
+  {
+    "id": 196,
+    "sentence": "If lightning can start a fire, then every fire must be caused by lightning.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause",
+      "fallacy of composition"
+    ],
+    "details": "The sentence commits the improper transposition fallacy by incorrectly reversing the conditional statement. It assumes 'if lightning can start a fire (A → B), then every fire must be caused by lightning (B → A),' which is logically invalid. Additionally, it falsely attributes all fires to a single cause (lightning), ignoring other potential causes (false cause). The fallacy of composition is marginally relevant as it generalizes a specific cause (lightning) to all instances of an effect (fire), but improper transposition is the primary error."
+  },
+  {
+    "id": 197,
+    "sentence": "If exercise causes sweating, then all sweating must be caused by exercise.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "The statement improperly reverses the original conditional ('if A then B' becomes 'if B then A'), committing the fallacy of improper transposition. It also assumes that because exercise can cause sweating, sweating *exclusively* indicates exercise, ignoring other causes (e.g., heat, anxiety), which aligns with false cause (oversimplifying causation)."
+  },
+  {
+    "id": 198,
+    "sentence": "If fear raises heart rate, then every increased heart rate must come from fear.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "The argument commits the fallacy of improper transposition by incorrectly reversing the original conditional statement ('If A, then B' becomes 'If B, then A'). It assumes that because fear (A) can cause an increased heart rate (B), all instances of B must be caused by A, ignoring other possible causes (e.g., exercise, excitement). This also aligns with false cause, as it assumes a singular cause for an effect with multiple potential explanations."
+  },
+  {
+    "id": 199,
+    "sentence": "If loud noise damages hearing, then all hearing damage must come from loud noise.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "The argument commits improper transposition by reversing the conditional: it assumes 'if A (loud noise) causes B (hearing damage), then all B must be caused by A,' which is a converse error. Additionally, it oversimplifies causation by ignoring other possible causes of hearing damage (e.g., aging, illness), aligning with false cause."
+  },
+  {
+    "id": 200,
+    "sentence": "If smoking leads to lung cancer, then all lung cancer must be caused by smoking.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper transposition",
+      "false cause"
+    ],
+    "details": "The sentence commits the fallacy of improper transposition. It incorrectly assumes that 'if A (smoking) leads to B (lung cancer), then B (lung cancer) must imply A (smoking),' which is a reversal of the original conditional without justification. This ignores other potential causes of lung cancer (e.g., pollution, genetics). It also hints at a false cause fallacy by oversimplifying a complex causal relationship into a rigid one-to-one correspondence."
+  },
+  {
+    "id": 201,
+    "sentence": "Since studying for 3 hours per chapter is recommended, and these hours can be accumulated to study for 15 hours at once, and studying for 15 hours straight has the same effect as distributing it by chapter, then studying for 15 hours once should lead to mastery of the entire subject.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false cause",
+      "accident fallacy"
+    ],
+    "details": "The argument commits a **false analogy** by equating distributed study (3 hours per chapter) with massed study (15 hours at once), ignoring evidence that spaced learning often yields better retention. It assumes a causal relationship (**false cause**) between total study time and mastery, neglecting variables like cognitive fatigue and retention decay during prolonged sessions. The **accident fallacy** applies because the general rule ('3 hours per chapter') is rigidly extended to an exceptional scenario (cramming), disregarding contextual differences in learning efficacy."
+  },
+  {
+    "id": 202,
+    "sentence": "Since watering a plant with 100 ml daily is recommended, and this amount can be accumulated to water with 700 ml at once, and watering with 700 ml has the same volume as distributing it daily, then watering with 700 ml once a week should keep the plant healthy for a week.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy",
+      "accident fallacy"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that the total volume of water (700 ml) being equal to the sum of daily amounts (100 ml/day × 7 days) guarantees the same effect, ignoring how the timing and distribution of water affect the plant's health (e.g., overwatering/underwatering risks). It also falsely analogizes daily and weekly watering based solely on volume equivalence, neglecting critical differences in biological needs (e.g., consistent hydration vs. sporadic saturation). The accident fallacy applies as it rigidly applies a general rule ('100 ml daily') to a scenario where mechanical adherence (e.g., weekly lump sum) ignores contextual factors (e.g., soil drainage, plant type)."
+  },
+  {
+    "id": 203,
+    "sentence": "Since jogging for 30 minutes daily is recommended, and these minutes can be accumulated to jog for 210 minutes in one go, and jogging for 210 minutes straight has the same time as distributing it daily, then jogging for 210 minutes once a week should lead to significant weight loss.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "fallacy of composition",
+      "false cause"
+    ],
+    "details": "The argument falsely assumes that accumulating 30-minute daily jogging sessions into a single 210-minute weekly session is equivalent in effect (weight loss) because the total time is the same. This is a **false analogy**, as the health benefits of exercise (e.g., metabolic impact, calorie burn, muscle recovery) depend on frequency and consistency, not just total duration. It also commits the **fallacy of composition** by assuming the properties of distributed parts (daily exercise) apply to the whole (weekly session). Additionally, it implies a **false cause**, assuming the correlation between total exercise time and weight loss guarantees causation regardless of distribution."
+  },
+  {
+    "id": 204,
+    "sentence": "Since taking 1 pill every 4 hours is recommended, and these pills can be accumulated to take 6 pills at once, and taking 6 pills has the same quantity as distributing them throughout the day, then taking 6 pills once should lead to complete recovery.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper distribution or addition",
+      "false premise",
+      "accident fallacy"
+    ],
+    "details": "The argument assumes that taking 6 pills at once (summing the total quantity) has the same effect as distributing them over time, which ignores pharmacokinetics (e.g., absorption rates, toxicity risks, and sustained therapeutic effects). This reflects the 'improper distribution or addition' fallacy (treating cumulative quantities as interchangeable with distributed doses). The 'false premise' is the flawed assumption that total quantity alone determines efficacy. The 'accident fallacy' applies because the general rule (total dosage matters) is applied mechanically, ignoring the specific context (timing matters for safe/effective treatment)."
+  },
+  {
+    "id": 205,
+    "sentence": "Since practicing piano for 1 hour daily is recommended, and these hours can be accumulated to practice for 1000 hours at once, and practicing for 1000 hours straight has the same time as distributing it daily, then practicing for 1000 hours in one marathon session should lead to mastery of the instrument.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "fallacy of composition",
+      "false cause"
+    ],
+    "details": "The argument falsely equates 1000 hours of accumulated daily practice with a single 1000-hour session, assuming they produce the same result (false analogy). It incorrectly infers that because individual hours contribute to mastery, their uninterrupted sum will function identically (fallacy of composition). It also assumes time alone directly causes mastery, ignoring factors like rest, skill consolidation, and incremental learning (false cause)."
+  },
+  {
+    "id": 206,
+    "sentence": "Since saving 10 dollars daily is recommended, and this amount can be accumulated to save 3650 dollars at once, and saving 3650 dollars has the same amount as distributing it daily over a year, then saving 3650 dollars once should provide significant financial security.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "fallacy of composition",
+      "accident fallacy"
+    ],
+    "details": "The argument commits a **false analogy** by equating saving $10 daily (a gradual, disciplined process) with saving $3650 at once (a lump-sum action), assuming they have identical financial impacts despite differing practical, behavioral, and temporal contexts (e.g., liquidity, discipline, opportunity costs). It also exhibits a **fallacy of composition** by assuming that the equivalence of the total amount ($3650) guarantees equivalence in outcomes (financial security), ignoring systemic factors like inflation, investment potential, or unforeseen expenses. The **accident fallacy** applies because it mechanically generalizes the rule 'saving money improves financial security' without considering how the *method* of saving (daily vs. lump-sum) might alter the outcome."
+  },
+  {
+    "id": 207,
+    "sentence": "Since learning 5 new vocabulary words daily is recommended, and these can be accumulated to learn 500 words at once, and learning 500 words has the same quantity as distributing it daily, then learning 500 words in one session should provide basic conversation ability.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false cause",
+      "accident fallacy"
+    ],
+    "details": "The argument falsely equates learning 500 words incrementally over time (e.g., 5 words/day) with learning them all at once, assuming identical outcomes (basic conversation ability). This is a **false analogy** because distributed learning and massed (one-time) learning are not functionally equivalent in language acquisition (retention, context, and practice differ). The **false cause** fallacy arises from assuming that the quantity of words alone (500) directly causes conversational ability, ignoring factors like comprehension, usage, and reinforcement. The **accident fallacy** applies if the premise assumes a general rule ('learning vocabulary improves conversation') mechanically applies to an extreme/unnatural scenario (cramming 500 words at once)."
+  },
+  {
+    "id": 208,
+    "sentence": "Since laying 1 brick at a time is standard practice, and these can be accumulated to lay 1000 bricks at once, and laying 1000 bricks has the same quantity as distributing the work, then 1000 tiny portions of a wall should automatically form a complete house wall.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false premise",
+      "false analogy"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that because individual bricks are parts of a wall, accumulating 1000 bricks (without considering structural assembly) automatically forms a complete wall. It also relies on a false premise that 'distributing work' (laying bricks individually) equates to the physical aggregation of bricks, ignoring the necessity of intentional construction. The false analogy lies in comparing the quantitative accumulation of bricks to the qualitative process of building a functional structure."
+  },
+  {
+    "id": 209,
+    "sentence": "Since eating 1 apple daily is recommended, and these can be accumulated to eat 30 apples at once, and eating 30 apples has the same quantity as distributing it daily, then eating 30 apples in one sitting should provide a balanced diet for a month.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy",
+      "accident fallacy"
+    ],
+    "details": "The argument commits the **fallacy of composition** by assuming that the nutritional benefits of eating 1 apple daily automatically apply to eating 30 apples at once, ignoring how timing and consumption patterns affect digestion, nutrient absorption, and health (e.g., excessive intake in one sitting may cause harm). It also relies on a **false analogy** by equating cumulative quantity (30 apples) to distributed daily consumption, treating them as equivalent despite differing contexts. Lastly, it reflects the **accident fallacy** by rigidly applying the general rule ('1 apple daily is healthy') to an extreme, non-standard case without considering practical or biological constraints."
+  },
+  {
+    "id": 210,
+    "sentence": "Since reading 1 chapter at a time is recommended, and these can be accumulated to read 20 chapters at once, and reading 20 chapters has the same content as distributing the reading, then reading 20 chapters in one marathon session should provide comprehensive subject knowledge.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false premise",
+      "fallacy of composition"
+    ],
+    "details": "The argument falsely equates the *process* of reading (distributed vs. marathon sessions) by assuming that identical content guarantees identical learning outcomes, committing a **false analogy** (comparing two scenarios based on superficial similarity in content while ignoring critical differences in learning mechanics like retention and comprehension). It also relies on a **false premise** (the unproven assumption that 'accumulated reading' is functionally equivalent to distributed reading). Additionally, it implies the **fallacy of composition** (assuming that because individual chapters contain knowledge, their aggregated form in a single session retains the same value without considering emergent properties like cognitive load or information integration)."
+  },
+  {
+    "id": 211,
+    "sentence": "Since sleeping 8 hours daily is recommended, and these hours can be accumulated to sleep for 56 hours at once, and sleeping for 56 hours straight has the same time as distributing it daily, then sleeping for 56 hours once a week should provide full recovery from exhaustion.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false premise",
+      "fallacy of composition"
+    ],
+    "details": "The argument commits a **false analogy** by equating the biological effects of distributed daily sleep with a single prolonged sleep session, ignoring critical differences in how sleep cycles and recovery function. It relies on a **false premise** (assuming total hours alone determine recovery) and a **fallacy of composition** (treating the sum of parts as equivalent to the whole, e.g., 8x7 hours ≠ 56 continuous hours biologically)."
+  },
+  {
+    "id": 212,
+    "sentence": "Since using 1 gallon of paint per room is standard, and these gallons can be accumulated to use 5 gallons at once, and using 5 gallons has the same volume as distributing it by room, then using 5 gallons in one large container should paint the complete house exterior.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy",
+      "false premise"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that because 1 gallon per room works for individual rooms, 5 gallons applied to the entire house exterior (a structurally different task) will suffice, ignoring factors like surface area, paint distribution efficiency, or differing requirements for exteriors vs. interiors. It also makes a false analogy between painting rooms and painting a house exterior (distinct contexts with different practical constraints). The premise that 'using 5 gallons at once has the same volume as distributing it by room' is technically true mathematically but ignores qualitative differences in application, making it a misleading premise."
+  },
+  {
+    "id": 213,
+    "sentence": "Since taking 1 vitamin tablet daily is recommended, and these tablets can be accumulated to take 30 tablets at once, and taking 30 tablets has the same quantity as distributing them daily, then taking 30 tablets once a month should provide long-term health improvement.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "fallacy of composition",
+      "false cause"
+    ],
+    "details": "The argument commits a false analogy by equating the effects of taking 30 tablets at once with daily intake, ignoring differences in absorption, metabolism, and potential toxicity. The fallacy of composition applies because it assumes the total quantity of vitamins (30 tablets) retains the same benefits when taken as a single dose rather than distributed over time. A false cause is also present, as it assumes the mere equivalence in quantity guarantees equivalent health outcomes, disregarding biological processes."
+  },
+  {
+    "id": 214,
+    "sentence": "Since writing 100 lines of code creates a simple function, and these lines can be accumulated to write 10000 lines at once, and writing 10000 lines has the same quantity as distributing it by function, then 100 simple functions should automatically integrate into a complete application.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that combining 100 simple functions (parts) will inherently result in a functional application (whole), ignoring complexities like integration, architecture, and interaction between components. It also implies a false analogy between the mere accumulation of code quantity (10000 lines) and the qualitative process of structuring functions into a coherent system, treating them as equivalent."
+  },
+  {
+    "id": 215,
+    "sentence": "Since lifting weights for 30 minutes per session is recommended, and these minutes can be accumulated to lift for 900 minutes at once, and lifting for 900 minutes straight has the same time as distributing it by session, then experiencing muscle fatigue 30 times in a row should lead to significant muscle gain.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "false analogy",
+      "false cause",
+      "fallacy of composition",
+      "false premise"
+    ],
+    "details": "The argument falsely equates accumulated exercise time (900 minutes at once) with distributed sessions (30 minutes each), assuming they produce equivalent muscle gains. This is a false analogy because physiological adaptation (e.g., muscle recovery, progressive overload) depends on session distribution, not just total time. It commits a false cause by implying total time directly causes muscle gain, ignoring factors like intensity and recovery. The fallacy of composition arises by assuming the whole (900 minutes) behaves like the sum of its parts (30-minute sessions). The false premise is that 'time equivalence' guarantees equivalent results, which contradicts exercise science principles."
+  },
+  {
+    "id": 216,
+    "sentence": "Since changing oil once every 3 months is recommended, and these changes can be accumulated to change oil 20 times at once, and changing oil 20 times has the same number as distributing it over time, then changing oil 20 times in one day should provide an extended vehicle lifespan.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy",
+      "improper distribution or addition"
+    ],
+    "details": "The argument commits a fallacy of composition by assuming that the benefits of 20 individual oil changes distributed over time (which maintain consistent lubrication and prevent engine wear) can be 'accumulated' into a single instance of 20 changes, ignoring the temporal nature of engine maintenance. It also uses a false analogy, equating the mechanical effect of 20 oil changes at once (which would only replace oil repeatedly in a short span, not address long-term wear) to 20 changes spread over time. Additionally, it improperly distributes the value of oil changes by treating them as additive quantities rather than time-dependent processes."
+  },
+  {
+    "id": 217,
+    "sentence": "Since writing 1 paragraph expresses a single idea, and these paragraphs can be accumulated to write 50 paragraphs at once, and writing 50 paragraphs has the same length as distributing them by idea, then 50 expressions of single ideas placed together should automatically form a comprehensive thesis.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy",
+      "false premise"
+    ],
+    "details": "The argument commits the fallacy of composition by assuming that individual paragraphs (parts) with single ideas, when combined, will inherently form a coherent thesis (whole). It falsely analogizes the accumulation of 50 paragraphs (quantitative similarity) to the structured, interconnected development required for a thesis (qualitative requirement). The false premise lies in equating 'length' with 'comprehensive structure,' ignoring the necessity of logical flow, argumentative synthesis, and thematic unity in a thesis."
+  },
+  {
+    "id": 218,
+    "sentence": "Since giving a 5-minute speech delivers a brief message, and these minutes can be accumulated to speak for 60 minutes continuously, and speaking for 60 minutes has the same time as distributing it by message, then delivering 12 brief messages back-to-back should automatically create persuasive attitude change.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "improper_distribution_or_addition",
+      "false_analogy",
+      "fallacy_of_composition"
+    ],
+    "details": "The argument commits the **improper distribution or addition fallacy** by assuming that 12 individual 5-minute speeches (summing to 60 minutes) will have the same persuasive effect as a single 60-minute continuous speech, ignoring structural and contextual differences. It also relies on a **false analogy** by equating back-to-back brief messages with a cohesive long-form speech, despite differences in delivery, audience engagement, and coherence. Additionally, it hints at the **fallacy of composition** by assuming properties of the parts (individual brief messages) automatically apply to the whole (the cumulative 60-minute session)."
+  },
+  {
+    "id": 219,
+    "sentence": "Since planting 1 seed produces a single plant, and these seeds can be accumulated to plant 1000 seeds at once, and planting 1000 seeds has the same quantity as distributing the planting, then 1000 individual plants should automatically organize into a sustainable food source.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy",
+      "false cause"
+    ],
+    "details": "The argument commits a **fallacy of composition** by assuming that 1000 individual plants (each contributing a small part) will inherently form a sustainable food source simply because they are numerous. Sustainability requires complex interactions (e.g., soil health, biodiversity, resource management), which are not guaranteed by quantity alone. It also relies on a **false analogy** by equating 'planting 1000 seeds at once' with 'distributing the planting,' ignoring differences in timing, spatial distribution, and ecological impact. Finally, it implies a **false cause**, suggesting that mere accumulation of plants leads to self-organization into sustainability without evidence of causation."
+  },
+  {
+    "id": 220,
+    "sentence": "Since solving 1 practice problem leads to understanding a specific concept, and these problems can be accumulated to solve 200 problems at once, and solving 200 problems has the same quantity as distributing them by concept, then understanding 200 specific concepts should automatically result in complete exam readiness.",
+    "logic_error": "yes",
+    "logic_fallacies": [
+      "fallacy of composition",
+      "false analogy",
+      "false cause"
+    ],
+    "details": "The argument commits a **fallacy of composition** by assuming that solving 200 individual problems (each contributing to understanding a specific concept) guarantees exam readiness as a whole, ignoring that exams often require integrating concepts, applying critical thinking, and addressing complex interactions not covered by isolated problems. It also relies on a **false analogy** between the quantity of solved problems (or concepts) and the qualitative depth required for exam success. Additionally, it assumes a **false cause** relationship: solving 200 problems does not inherently ensure mastery of all exam-relevant skills or knowledge due to potential gaps, overlaps, or misalignments with exam demands."
+  }
+]

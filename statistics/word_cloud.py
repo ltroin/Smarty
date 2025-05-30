@@ -31,7 +31,7 @@ def convert_inner_quotes(text):
     """Convert inner double quotes to single quotes, keeping outer quotes unchanged."""
     return re.sub(r'(?<!^)"(.*?)(?<!^)"', r"'\1'", text)
 sentences_list=[]
-with open("ruozhiba_label_updated.csv", 'r', encoding='utf-8') as csvfile:
+with open("SmartyPat_label.csv", 'r', encoding='utf-8') as csvfile:
     csvreader = csv.reader(csvfile)
     for row in csvreader:                
         sentence = clean_value(row[1].strip())
